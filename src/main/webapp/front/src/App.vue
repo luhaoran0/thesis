@@ -1,0 +1,108 @@
+<template>
+  <router-view></router-view>
+</template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
+
+<style>
+  * {
+	  box-sizing: border-box;
+  }
+  html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  [v-cloak]{
+    display:none
+  }
+  .el-tabs__item {
+    font-size: 18px;
+  }
+  .el-loading-spinner .el-loading-text {
+    color: #fff;
+  }
+  .el-loading-spinner .path {
+    stroke: #fff;
+  }
+  .el-breadcrumb {
+    line-height: 60px;
+    font-size: 18px;
+  }
+
+  .ql-editor {
+    /*height: 500px;*/
+  }
+  .ql-snow .ql-tooltip[data-mode="link"]::before {
+    content: "Please enter the link address:";
+  }
+  .ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+    border-right: 0px;
+    content: "Save";
+    padding-right: 0px;
+  }
+  .ql-snow .ql-tooltip[data-mode="video"]::before {
+    content: "Please enter the video address:";
+  }
+  .ql-snow .ql-picker.ql-size .ql-picker-label::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item::before {
+    content: "14px";
+  }
+  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="small"]::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="small"]::before {
+    content: "10px";
+  }
+  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="large"]::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="large"]::before {
+    content: "18px";
+  }
+  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="huge"]::before,
+  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="huge"]::before {
+    content: "32px";
+  }
+  .ql-snow .ql-picker.ql-header .ql-picker-label::before,
+  .ql-snow .ql-picker.ql-header .ql-picker-item::before {
+    content: "TEXT";
+  }
+  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
+  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+    content: "Title1";
+  }
+  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
+  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+    content: "Title2";
+  }
+  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
+  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+    content: "Title3";
+  }
+  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
+  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+    content: "Title4";
+  }
+  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before,
+  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+    content: "Title5";
+  }
+  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before,
+  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+    content: "Title6";
+  }
+  .ql-snow .ql-picker.ql-font .ql-picker-label::before,
+  .ql-snow .ql-picker.ql-font .ql-picker-item::before {
+    content: "Standard font";
+  }
+  .ql-snow .ql-picker.ql-font .ql-picker-label[data-value="serif"]::before,
+  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="serif"]::before {
+    content: "Serif font";
+  }
+  .ql-snow .ql-picker.ql-font .ql-picker-label[data-value="monospace"]::before,
+  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="monospace"]::before {
+    content: "Constant width font";
+  }
+</style>
