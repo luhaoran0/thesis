@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 卖家
- * 后端接口
+ * Seller
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -57,7 +57,7 @@ public class MaijiaController {
 	private TokenService tokenService;
 	
 	/**
-	 * 登录
+	 * login
 	 */
 	@IgnoreAuth
 	@RequestMapping(value = "/login")
@@ -71,7 +71,7 @@ public class MaijiaController {
 	}
 	
 	/**
-     * 注册
+     * Registration
      */
 	@IgnoreAuth
     @RequestMapping("/register")
@@ -79,7 +79,7 @@ public class MaijiaController {
     	//ValidatorUtils.validateEntity(maijia);
     	MaijiaEntity u = maijiaService.selectOne(new EntityWrapper<MaijiaEntity>().eq("maijiaxuehao", maijia.getMaijiaxuehao()));
 		if(u!=null) {
-			return R.error("注册User already exists");
+			return R.error("register user already exists");
 		}
 		Long uId = new Date().getTime();
 		maijia.setId(uId);
@@ -89,7 +89,7 @@ public class MaijiaController {
 
 	
 	/**
-	 * 退出
+	 * Logout
 	 */
 	@RequestMapping("/logout")
 	public R logout(HttpServletRequest request) {
@@ -98,7 +98,7 @@ public class MaijiaController {
 	}
 	
 	/**
-     * 获取用户的session用户信息
+     * Get the user's session user information
      */
     @RequestMapping("/session")
     public R getCurrUser(HttpServletRequest request){
@@ -108,7 +108,7 @@ public class MaijiaController {
     }
     
     /**
-     * 密码重置
+     * Password Reset
      */
     @IgnoreAuth
 	@RequestMapping(value = "/resetPass")
@@ -124,7 +124,7 @@ public class MaijiaController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,MaijiaEntity maijia, 
@@ -138,7 +138,7 @@ public class MaijiaController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
 	@IgnoreAuth
     @RequestMapping("/list")
@@ -151,7 +151,7 @@ public class MaijiaController {
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/lists")
     public R list( MaijiaEntity maijia){
@@ -161,7 +161,7 @@ public class MaijiaController {
     }
 
 	 /**
-     * 查询
+     *Search
      */
     @RequestMapping("/query")
     public R query(MaijiaEntity maijia){
@@ -172,7 +172,7 @@ public class MaijiaController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -181,7 +181,7 @@ public class MaijiaController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -194,7 +194,7 @@ public class MaijiaController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody MaijiaEntity maijia, HttpServletRequest request){
@@ -211,7 +211,7 @@ public class MaijiaController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody MaijiaEntity maijia, HttpServletRequest request){
@@ -229,19 +229,19 @@ public class MaijiaController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody MaijiaEntity maijia, HttpServletRequest request){
         //ValidatorUtils.validateEntity(maijia);
-        maijiaService.updateById(maijia);//全部更新
+        maijiaService.updateById(maijia);//Update all
         return R.ok();
     }
     
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -250,7 +250,7 @@ public class MaijiaController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 

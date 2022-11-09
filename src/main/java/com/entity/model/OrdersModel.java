@@ -10,8 +10,8 @@ import java.io.Serializable;
  
 
 /**
- * 订单
- * 接收传参的实体类  
+ * Orders
+ * Entity class for receiving passed parameters
  *（实际开发中配合移动端接口开发手动去掉些没用的字段， 后端一般用entity就够用了） 
  * 取自ModelAndView 的model名称
  * @author 
@@ -23,116 +23,116 @@ public class OrdersModel  implements Serializable {
 
 	 			
 	/**
-	 * 商品表名
+	 * Product List Name
 	 */
 	
 	private String tablename;
 		
 	/**
-	 * 用户id
+	 * User id
 	 */
 	
 	private Long userid;
 		
 	/**
-	 * 商品id
+	 * Product id
 	 */
 	
 	private Long goodid;
 		
 	/**
-	 * 商品名称
+	 * Product Name
 	 */
 	
 	private String goodname;
 		
 	/**
-	 * 商品图片
+	 * Product pictures
 	 */
 	
 	private String picture;
 		
 	/**
-	 * 购买数量
+	 * Number of purchases
 	 */
 	
 	private Integer buynumber;
 		
 	/**
-	 * 价格
+	 * Price
 	 */
 	
 	private Float price;
 		
 	/**
-	 * 折扣价格
+	 * Discount Price
 	 */
 	
 	private Float discountprice;
 		
 	/**
-	 * 总价格
+	 * Total Price
 	 */
 	
 	private Float total;
 		
 	/**
-	 * 折扣总价格
+	 * Total discounted price
 	 */
 	
 	private Float discounttotal;
 		
 	/**
-	 * 支付类型
+	 * Payment Type
 	 */
 	
 	private Integer type;
 		
 	/**
-	 * 状态
+	 * Status
 	 */
 	
 	private String status;
 		
 	/**
-	 * 地址
+	 * Address
 	 */
 	
 	private String address;
 		
 	/**
-	 * 电话
+	 * Telephone
 	 */
 	
 	private String tel;
 		
 	/**
-	 * 收货人
+	 * Receiver
 	 */
 	
 	private String consignee;
 		
 	/**
-	 * 备注
+	 * Remarks
 	 */
 	
 	private String remark;
 		
 	/**
-	 * 物流
+	 * Express delivery
 	 */
 	
 	private String logistics;
 		
 	/**
-	 * 商户名称
+	 * Merchant Name
 	 */
 	
 	private String maijiaxuehao;
 				
 	
 	/**
-	 * 设置：商品表名
+	 * Setting：Product List Name
 	 */
 	 
 	public void setTablename(String tablename) {
@@ -140,7 +140,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商品表名
+	 * Get：Product List Name
 	 */
 	public String getTablename() {
 		return tablename;
@@ -148,7 +148,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：用户id
+	 * Setting：User id
 	 */
 	 
 	public void setUserid(Long userid) {
@@ -156,7 +156,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：用户id
+	 * Get：User id
 	 */
 	public Long getUserid() {
 		return userid;
@@ -164,7 +164,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：商品id
+	 * Setting：Product id
 	 */
 	 
 	public void setGoodid(Long goodid) {
@@ -172,7 +172,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商品id
+	 * Get：Product id
 	 */
 	public Long getGoodid() {
 		return goodid;
@@ -180,7 +180,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：商品名称
+	 * Setting：Product Name
 	 */
 	 
 	public void setGoodname(String goodname) {
@@ -188,7 +188,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商品名称
+	 * Get：Product Name
 	 */
 	public String getGoodname() {
 		return goodname;
@@ -196,7 +196,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：商品图片
+	 * Setting：Product pictures
 	 */
 	 
 	public void setPicture(String picture) {
@@ -204,7 +204,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商品图片
+	 * Get：Product pictures
 	 */
 	public String getPicture() {
 		return picture;
@@ -212,7 +212,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：购买数量
+	 * Setting：Number of purchases
 	 */
 	 
 	public void setBuynumber(Integer buynumber) {
@@ -220,7 +220,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：购买数量
+	 * Get：Number of purchases
 	 */
 	public Integer getBuynumber() {
 		return buynumber;
@@ -228,7 +228,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：价格
+	 * Setting：Price
 	 */
 	 
 	public void setPrice(Float price) {
@@ -236,7 +236,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：价格
+	 * Get：Price
 	 */
 	public Float getPrice() {
 		return price;
@@ -244,7 +244,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：折扣价格
+	 * Setting：Discount Price
 	 */
 	 
 	public void setDiscountprice(Float discountprice) {
@@ -252,7 +252,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：折扣价格
+	 * Get：Discount Price
 	 */
 	public Float getDiscountprice() {
 		return discountprice;
@@ -260,7 +260,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：总价格
+	 * Setting：Total Price
 	 */
 	 
 	public void setTotal(Float total) {
@@ -268,7 +268,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：总价格
+	 * Get：Total Price
 	 */
 	public Float getTotal() {
 		return total;
@@ -276,7 +276,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：折扣总价格
+	 * Setting：Total discounted price
 	 */
 	 
 	public void setDiscounttotal(Float discounttotal) {
@@ -284,7 +284,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：折扣总价格
+	 * Get：Total discounted price
 	 */
 	public Float getDiscounttotal() {
 		return discounttotal;
@@ -292,7 +292,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：支付类型
+	 * Setting：Payment Type
 	 */
 	 
 	public void setType(Integer type) {
@@ -300,7 +300,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：支付类型
+	 * Get：Payment Type
 	 */
 	public Integer getType() {
 		return type;
@@ -308,7 +308,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：状态
+	 * Setting：Status
 	 */
 	 
 	public void setStatus(String status) {
@@ -316,7 +316,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：状态
+	 * Get：Status
 	 */
 	public String getStatus() {
 		return status;
@@ -324,7 +324,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：地址
+	 * Setting：Address
 	 */
 	 
 	public void setAddress(String address) {
@@ -332,7 +332,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：地址
+	 * Get：Address
 	 */
 	public String getAddress() {
 		return address;
@@ -340,7 +340,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：电话
+	 * Setting：Telephone
 	 */
 	 
 	public void setTel(String tel) {
@@ -348,7 +348,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：电话
+	 * Get：Telephone
 	 */
 	public String getTel() {
 		return tel;
@@ -356,7 +356,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：收货人
+	 * Setting：Receiver
 	 */
 	 
 	public void setConsignee(String consignee) {
@@ -364,7 +364,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：收货人
+	 * Get：Receiver
 	 */
 	public String getConsignee() {
 		return consignee;
@@ -372,7 +372,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：备注
+	 * Setting：Remarks
 	 */
 	 
 	public void setRemark(String remark) {
@@ -380,7 +380,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：备注
+	 * Get：Remarks
 	 */
 	public String getRemark() {
 		return remark;
@@ -388,7 +388,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：物流
+	 * Setting：Express delivery
 	 */
 	 
 	public void setLogistics(String logistics) {
@@ -396,7 +396,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：物流
+	 * Get：Express delivery
 	 */
 	public String getLogistics() {
 		return logistics;
@@ -404,7 +404,7 @@ public class OrdersModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：商户名称
+	 * Setting：Merchant Name
 	 */
 	 
 	public void setMaijiaxuehao(String maijiaxuehao) {
@@ -412,7 +412,7 @@ public class OrdersModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商户名称
+	 * Get：Merchant Name
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;

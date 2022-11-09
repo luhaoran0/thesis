@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 收藏表
- * 数据库通用操作实体类（普通增删改查）
+ * Collection Table
+ * Database general operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,48 +47,48 @@ public class StoreupEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 用户id
+	 * User id
 	 */
 					
 	private Long userid;
 	
 	/**
-	 * 收藏id
+	 * Collection id
 	 */
 					
 	private Long refid;
 	
 	/**
-	 * 表名
+	 *Table Name
 	 */
 					
 	private String tablename;
 	
 	/**
-	 * 收藏名称
+	 * Collection Name
 	 */
 					
 	private String name;
 	
 	/**
-	 * 收藏图片
+	 * Collection Pictures
 	 */
 					
 	private String picture;
 	
 	/**
-	 * 类型(1:收藏,21:赞,22:踩)
+	 * Type(1:Favorite,21:Like,22:Step)
 	 */
 					
 	private String type;
 	
 	/**
-	 * 推荐类型
+	 * Recommendation Type
 	 */
 					
 	private String inteltype;
@@ -113,85 +113,85 @@ public class StoreupEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：用户id
+	 * Setting：User id
 	 */
 	public void setUserid(Long userid) {
 		this.userid = userid;
 	}
 	/**
-	 * 获取：用户id
+	 * Get：User id
 	 */
 	public Long getUserid() {
 		return userid;
 	}
 	/**
-	 * 设置：收藏id
+	 * Setting：Collection id
 	 */
 	public void setRefid(Long refid) {
 		this.refid = refid;
 	}
 	/**
-	 * 获取：收藏id
+	 * Get：Collection id
 	 */
 	public Long getRefid() {
 		return refid;
 	}
 	/**
-	 * 设置：表名
+	 * Setting：Table Name
 	 */
 	public void setTablename(String tablename) {
 		this.tablename = tablename;
 	}
 	/**
-	 * 获取：表名
+	 * Get：Table Name
 	 */
 	public String getTablename() {
 		return tablename;
 	}
 	/**
-	 * 设置：收藏名称
+	 * Setting：Collection Name
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 	/**
-	 * 获取：收藏名称
+	 * Get：Collection Name
 	 */
 	public String getName() {
 		return name;
 	}
 	/**
-	 * 设置：收藏图片
+	 * Setting：Collection Pictures
 	 */
 	public void setPicture(String picture) {
 		this.picture = picture;
 	}
 	/**
-	 * 获取：收藏图片
+	 * Get：Collection Pictures
 	 */
 	public String getPicture() {
 		return picture;
 	}
 	/**
-	 * 设置：类型(1:收藏,21:赞,22:踩)
+	 * Setting：Type(1:Favorite,21:Like,22:Step)
 	 */
 	public void setType(String type) {
 		this.type = type;
 	}
 	/**
-	 * 获取：类型(1:收藏,21:赞,22:踩)
+	 * Get：Type(1:Favorite,21:Like,22:Step)
 	 */
 	public String getType() {
 		return type;
 	}
 	/**
-	 * 设置：推荐类型
+	 * Setting：Recommendation Type
 	 */
 	public void setInteltype(String inteltype) {
 		this.inteltype = inteltype;
 	}
 	/**
-	 * 获取：推荐类型
+	 * Get：Recommendation Type
 	 */
 	public String getInteltype() {
 		return inteltype;

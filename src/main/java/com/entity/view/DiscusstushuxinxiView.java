@@ -10,9 +10,8 @@ import java.io.Serializable;
  
 
 /**
- * 图书信息评论表
- * 后端返回视图实体辅助类   
- * （通常后端关联的表或者自定义的字段需要返回使用）
+ * Book Information Review Form
+ * Back-end return view entity helper class
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05

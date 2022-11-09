@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 聊天记录
- * 数据库通用操作实体类（普通增删改查）
+ * Chat history
+ * Database generic operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,42 +47,42 @@ public class LiaotianjiluEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 图书名称
+	 * Book title
 	 */
 					
 	private String tushumingcheng;
 	
 	/**
-	 * 卖家学号
+	 * Seller's school number
 	 */
 					
 	private String maijiaxuehao;
 	
 	/**
-	 * 内容信息
+	 * Content information
 	 */
 					
 	private String neirongxinxi;
 	
 	/**
-	 * 学号
+	 * Student ID
 	 */
 					
 	private String xuehao;
 	
 	/**
-	 * 是否审核
+	 * Whether to review
 	 */
 					
 	private String sfsh;
 	
 	/**
-	 * 审核回复
+	 * Review Reply
 	 */
 					
 	private String shhf;
@@ -107,73 +107,73 @@ public class LiaotianjiluEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：图书名称
+	 * Settings: Book name
 	 */
 	public void setTushumingcheng(String tushumingcheng) {
 		this.tushumingcheng = tushumingcheng;
 	}
 	/**
-	 * 获取：图书名称
+	 * Get: Book title
 	 */
 	public String getTushumingcheng() {
 		return tushumingcheng;
 	}
 	/**
-	 * 设置：卖家学号
+	 * Setting: Seller's school number
 	 */
 	public void setMaijiaxuehao(String maijiaxuehao) {
 		this.maijiaxuehao = maijiaxuehao;
 	}
 	/**
-	 * 获取：卖家学号
+	 * Get: seller's school number
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;
 	}
 	/**
-	 * 设置：内容信息
+	 * Settings: Content information
 	 */
 	public void setNeirongxinxi(String neirongxinxi) {
 		this.neirongxinxi = neirongxinxi;
 	}
 	/**
-	 * 获取：内容信息
+	 * Get: content information
 	 */
 	public String getNeirongxinxi() {
 		return neirongxinxi;
 	}
 	/**
-	 * 设置：学号
+	 * Setting: Student ID
 	 */
 	public void setXuehao(String xuehao) {
 		this.xuehao = xuehao;
 	}
 	/**
-	 * 获取：学号
+	 * Get: Student ID
 	 */
 	public String getXuehao() {
 		return xuehao;
 	}
 	/**
-	 * 设置：是否审核
+	 * Settings: Whether to review
 	 */
 	public void setSfsh(String sfsh) {
 		this.sfsh = sfsh;
 	}
 	/**
-	 * 获取：是否审核
+	 * Get: whether to review
 	 */
 	public String getSfsh() {
 		return sfsh;
 	}
 	/**
-	 * 设置：审核回复
+	 * Settings: Review responses
 	 */
 	public void setShhf(String shhf) {
 		this.shhf = shhf;
 	}
 	/**
-	 * 获取：审核回复
+	 * Get: Review Responses
 	 */
 	public String getShhf() {
 		return shhf;

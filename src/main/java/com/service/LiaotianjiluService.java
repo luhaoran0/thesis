@@ -12,7 +12,7 @@ import com.entity.view.LiaotianjiluView;
 
 
 /**
- * 聊天记录
+ * Chat history
  *
  * @author 
  * @email 

@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 公告信息
- * 数据库通用操作实体类（普通增删改查）
+ * Announcement Information
+ * Database general operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,30 +47,30 @@ public class NewsEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 标题
+	 * Title
 	 */
 					
 	private String title;
 	
 	/**
-	 * 简介
+	 * Introduction
 	 */
 					
 	private String introduction;
 	
 	/**
-	 * 图片
+	 * Pictures
 	 */
 					
 	private String picture;
 	
 	/**
-	 * 内容
+	 * Content
 	 */
 					
 	private String content;
@@ -95,49 +95,49 @@ public class NewsEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：标题
+	 * Settings: Title
 	 */
 	public void setTitle(String title) {
 		this.title = title;
 	}
 	/**
-	 * 获取：标题
+	 * Get: Title
 	 */
 	public String getTitle() {
 		return title;
 	}
 	/**
-	 * 设置：简介
+	 * Setting：Introduction
 	 */
 	public void setIntroduction(String introduction) {
 		this.introduction = introduction;
 	}
 	/**
-	 * 获取：简介
+	 * Get：Introduction
 	 */
 	public String getIntroduction() {
 		return introduction;
 	}
 	/**
-	 * 设置：图片
+	 * Setting：Pictures
 	 */
 	public void setPicture(String picture) {
 		this.picture = picture;
 	}
 	/**
-	 * 获取：图片
+	 * Get：Pictures
 	 */
 	public String getPicture() {
 		return picture;
 	}
 	/**
-	 * 设置：内容
+	 * Setting：Content
 	 */
 	public void setContent(String content) {
 		this.content = content;
 	}
 	/**
-	 * 获取：内容
+	 * Get：Content
 	 */
 	public String getContent() {
 		return content;

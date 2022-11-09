@@ -13,7 +13,7 @@ import com.service.CommonService;
 
 
 /**
- * 系统用户
+ * System Users
  */
 @Service("commonService")
 public class CommonServiceImpl implements CommonService {

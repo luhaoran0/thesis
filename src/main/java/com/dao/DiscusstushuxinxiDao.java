@@ -13,7 +13,7 @@ import com.entity.view.DiscusstushuxinxiView;
 
 
 /**
- * 图书信息评论表
+ * Book Information Review Form
  * 
  * @author 
  * @email 

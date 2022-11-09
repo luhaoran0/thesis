@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 图书信息评论表
- * 后端接口
+ * Book Information Review Form
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -56,7 +56,7 @@ public class DiscusstushuxinxiController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,DiscusstushuxinxiEntity discusstushuxinxi, 
@@ -70,7 +70,7 @@ public class DiscusstushuxinxiController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
 	@IgnoreAuth
     @RequestMapping("/list")
@@ -83,7 +83,7 @@ public class DiscusstushuxinxiController {
     }
 
 	/**
-     * 列表
+     *List
      */
     @RequestMapping("/lists")
     public R list( DiscusstushuxinxiEntity discusstushuxinxi){
@@ -93,7 +93,7 @@ public class DiscusstushuxinxiController {
     }
 
 	 /**
-     * 查询
+     * Search
      */
     @RequestMapping("/query")
     public R query(DiscusstushuxinxiEntity discusstushuxinxi){
@@ -104,7 +104,7 @@ public class DiscusstushuxinxiController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -113,7 +113,7 @@ public class DiscusstushuxinxiController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -126,7 +126,7 @@ public class DiscusstushuxinxiController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody DiscusstushuxinxiEntity discusstushuxinxi, HttpServletRequest request){
@@ -138,7 +138,7 @@ public class DiscusstushuxinxiController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody DiscusstushuxinxiEntity discusstushuxinxi, HttpServletRequest request){
@@ -151,19 +151,19 @@ public class DiscusstushuxinxiController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody DiscusstushuxinxiEntity discusstushuxinxi, HttpServletRequest request){
         //ValidatorUtils.validateEntity(discusstushuxinxi);
-        discusstushuxinxiService.updateById(discusstushuxinxi);//全部更新
+        discusstushuxinxiService.updateById(discusstushuxinxi);//Update all
         return R.ok();
     }
     
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -172,7 +172,7 @@ public class DiscusstushuxinxiController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 

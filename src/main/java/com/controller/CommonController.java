@@ -34,7 +34,7 @@ import com.utils.BaiduUtil;
 import com.utils.FileUtil;
 import com.utils.R;
 /**
- * 通用接口
+ * Universal Interface
  */
 @RestController
 public class CommonController{
@@ -47,7 +47,7 @@ public class CommonController{
     private ConfigService configService;
     
 	/**
-	 * 获取table表中的column列表(联动接口)
+	 * Get list of columns in table table (linkage interface)
 	 * @param table
 	 * @param column
 	 * @return
@@ -75,7 +75,7 @@ public class CommonController{
 	}
 	
 	/**
-	 * 根据table中的column获取单条记录
+	 * Get a single record based on the column in the table
 	 * @param table
 	 * @param column
 	 * @return
@@ -92,7 +92,7 @@ public class CommonController{
 	}
 	
 	/**
-	 * 修改table表的sfsh状态
+	 * Modify the status of table table
 	 * @param table
 	 * @param map
 	 * @return
@@ -105,7 +105,7 @@ public class CommonController{
 	}
 	
 	/**
-	 * 获取需要提醒的记录数
+	 * Get the number of records that need to be reminded
 	 * @param tableName
 	 * @param columnName
 	 * @param type 1:数字 2:日期
@@ -146,7 +146,7 @@ public class CommonController{
 	}
 	
 	/**
-	 * 单列求和
+	 * Single column summation
 	 */
 	@IgnoreAuth
 	@RequestMapping("/cal/{tableName}/{columnName}")
@@ -159,7 +159,7 @@ public class CommonController{
 	}
 	
 	/**
-	 * 分组统计
+	 * Grouping statistics
 	 */
 	@IgnoreAuth
 	@RequestMapping("/group/{tableName}/{columnName}")
@@ -180,7 +180,7 @@ public class CommonController{
 	}
 	
 	/**
-	 * （按值统计）
+	 * (Statistics by value)
 	 */
 	@IgnoreAuth
 	@RequestMapping("/value/{tableName}/{xColumnName}/{yColumnName}")
@@ -202,7 +202,7 @@ public class CommonController{
 	}
 
 	/**
- 	 * （按值统计）时间统计类型
+ 	 * (Statistics by value) Type of time statistics
  	 */
 	@IgnoreAuth
 	@RequestMapping("/value/{tableName}/{xColumnName}/{yColumnName}/{timeStatType}")

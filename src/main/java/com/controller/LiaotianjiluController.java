@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 聊天记录
- * 后端接口
+ *
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -56,7 +56,7 @@ public class LiaotianjiluController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,LiaotianjiluEntity liaotianjilu, 
@@ -77,7 +77,7 @@ public class LiaotianjiluController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
 	@IgnoreAuth
     @RequestMapping("/list")
@@ -90,7 +90,7 @@ public class LiaotianjiluController {
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/lists")
     public R list( LiaotianjiluEntity liaotianjilu){
@@ -100,7 +100,7 @@ public class LiaotianjiluController {
     }
 
 	 /**
-     * 查询
+     * Search
      */
     @RequestMapping("/query")
     public R query(LiaotianjiluEntity liaotianjilu){
@@ -111,7 +111,7 @@ public class LiaotianjiluController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -120,7 +120,7 @@ public class LiaotianjiluController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -133,7 +133,7 @@ public class LiaotianjiluController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody LiaotianjiluEntity liaotianjilu, HttpServletRequest request){
@@ -145,7 +145,7 @@ public class LiaotianjiluController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody LiaotianjiluEntity liaotianjilu, HttpServletRequest request){
@@ -158,19 +158,19 @@ public class LiaotianjiluController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody LiaotianjiluEntity liaotianjilu, HttpServletRequest request){
         //ValidatorUtils.validateEntity(liaotianjilu);
-        liaotianjiluService.updateById(liaotianjilu);//全部更新
+        liaotianjiluService.updateById(liaotianjilu);//Update all
         return R.ok();
     }
     
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -179,7 +179,7 @@ public class LiaotianjiluController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 

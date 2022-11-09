@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 图书信息评论表
- * 数据库通用操作实体类（普通增删改查）
+ * Book Info Review Form
+ * Database generic operation entity class (general add, delete, change, check）
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,36 +47,36 @@ public class DiscusstushuxinxiEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 关联表id
+	 * Related table id
 	 */
 					
 	private Long refid;
 	
 	/**
-	 * 用户id
+	 * User id
 	 */
 					
 	private Long userid;
 	
 	/**
-	 * 用户名
+	 * Username
 	 */
 					
 	private String nickname;
 	
 	/**
-	 * 评论内容
+	 * Comments
 	 */
 					
 	private String content;
 	
 	/**
-	 * 回复内容
+	 * Response content
 	 */
 					
 	private String reply;
@@ -101,61 +101,61 @@ public class DiscusstushuxinxiEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：关联表id
+	 * Set: associated table id
 	 */
 	public void setRefid(Long refid) {
 		this.refid = refid;
 	}
 	/**
-	 * 获取：关联表id
+	 * Get: associated table id
 	 */
 	public Long getRefid() {
 		return refid;
 	}
 	/**
-	 * 设置：用户id
+	 * Settings: user id
 	 */
 	public void setUserid(Long userid) {
 		this.userid = userid;
 	}
 	/**
-	 * 获取：用户id
+	 * Get: user id
 	 */
 	public Long getUserid() {
 		return userid;
 	}
 	/**
-	 * 设置：用户名
+	 * Settings: Username
 	 */
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
 	/**
-	 * 获取：用户名
+	 * Get: Username
 	 */
 	public String getNickname() {
 		return nickname;
 	}
 	/**
-	 * 设置：评论内容
+	 * Settings: Comment content
 	 */
 	public void setContent(String content) {
 		this.content = content;
 	}
 	/**
-	 * 获取：评论内容
+	 * Access: Review content
 	 */
 	public String getContent() {
 		return content;
 	}
 	/**
-	 * 设置：回复内容
+	 * Settings: Reply content
 	 */
 	public void setReply(String reply) {
 		this.reply = reply;
 	}
 	/**
-	 * 获取：回复内容
+	 * Access: Reply to content
 	 */
 	public String getReply() {
 		return reply;

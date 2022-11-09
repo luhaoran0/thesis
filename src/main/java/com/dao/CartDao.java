@@ -13,7 +13,7 @@ import com.entity.view.CartView;
 
 
 /**
- * 购物车表
+ * Shopping cart table
  * 
  * @author 
  * @email 

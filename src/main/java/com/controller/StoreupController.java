@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 收藏表
- * 后端接口
+ * Collection Table
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -56,7 +56,7 @@ public class StoreupController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,StoreupEntity storeup, 
@@ -73,7 +73,7 @@ public class StoreupController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
 	@IgnoreAuth
     @RequestMapping("/list")
@@ -86,7 +86,7 @@ public class StoreupController {
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/lists")
     public R list( StoreupEntity storeup){
@@ -96,7 +96,7 @@ public class StoreupController {
     }
 
 	 /**
-     * 查询
+     * Search
      */
     @RequestMapping("/query")
     public R query(StoreupEntity storeup){
@@ -107,7 +107,7 @@ public class StoreupController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -116,7 +116,7 @@ public class StoreupController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -129,7 +129,7 @@ public class StoreupController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody StoreupEntity storeup, HttpServletRequest request){
@@ -142,7 +142,7 @@ public class StoreupController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody StoreupEntity storeup, HttpServletRequest request){
@@ -155,19 +155,19 @@ public class StoreupController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody StoreupEntity storeup, HttpServletRequest request){
         //ValidatorUtils.validateEntity(storeup);
-        storeupService.updateById(storeup);//全部更新
+        storeupService.updateById(storeup);//Update all
         return R.ok();
     }
     
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -176,7 +176,7 @@ public class StoreupController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 

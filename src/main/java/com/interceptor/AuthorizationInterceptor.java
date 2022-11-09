@@ -21,7 +21,7 @@ import com.service.TokenService;
 import com.utils.R;
 
 /**
- * 权限(Token)验证
+ * Permission (Token) verification
  */
 @Component
 public class AuthorizationInterceptor implements HandlerInterceptor {
@@ -34,7 +34,7 @@ public class AuthorizationInterceptor implements HandlerInterceptor {
 	@Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
-        //支持跨域请求
+
         response.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, DELETE");
         response.setHeader("Access-Control-Max-Age", "3600");
         response.setHeader("Access-Control-Allow-Credentials", "true");
@@ -48,11 +48,11 @@ public class AuthorizationInterceptor implements HandlerInterceptor {
             return true;
         }
 
-        //从header中获取token
+        //Get the token from the header
         String token = request.getHeader(LOGIN_TOKEN_KEY);
         
         /**
-         * 不需要验证权限的方法直接放过
+         * Methods that do not require authentication permissions are simply spared
          */
         if(annotation!=null) {
         	return true;

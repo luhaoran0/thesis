@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 购物车表
- * 数据库通用操作实体类（普通增删改查）
+ * Shopping cart table
+ * Database generic operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,60 +47,60 @@ public class CartEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 商品表名
+	 * tablename
 	 */
 					
 	private String tablename;
 	
 	/**
-	 * 用户id
+	 * userid
 	 */
 					
 	private Long userid;
 	
 	/**
-	 * 商品id
+	 * goodid
 	 */
 					
 	private Long goodid;
 	
 	/**
-	 * 商品名称
+	 * goodname
 	 */
 					
 	private String goodname;
 	
 	/**
-	 * 图片
+	 * picture
 	 */
 					
 	private String picture;
 	
 	/**
-	 * 购买数量
+	 * buynumber
 	 */
 					
 	private Integer buynumber;
 	
 	/**
-	 * 单价
+	 * price
 	 */
 					
 	private Float price;
 	
 	/**
-	 * 会员价
+	 * discountprice
 	 */
 					
 	private Float discountprice;
 	
 	/**
-	 * 商户名称
+	 * Name of merchant
 	 */
 					
 	private String maijiaxuehao;
@@ -125,109 +125,109 @@ public class CartEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：商品表名
+	 * Settings: Product table name
 	 */
 	public void setTablename(String tablename) {
 		this.tablename = tablename;
 	}
 	/**
-	 * 获取：商品表名
+	 * Get: Product List Name
 	 */
 	public String getTablename() {
 		return tablename;
 	}
 	/**
-	 * 设置：用户id
+	 * Settings: user id
 	 */
 	public void setUserid(Long userid) {
 		this.userid = userid;
 	}
 	/**
-	 * 获取：用户id
+	 * Get: user id
 	 */
 	public Long getUserid() {
 		return userid;
 	}
 	/**
-	 * 设置：商品id
+	 * Settings: product id
 	 */
 	public void setGoodid(Long goodid) {
 		this.goodid = goodid;
 	}
 	/**
-	 * 获取：商品id
+	 * Get: product id
 	 */
 	public Long getGoodid() {
 		return goodid;
 	}
 	/**
-	 * 设置：商品名称
+	 * Settings: Product name
 	 */
 	public void setGoodname(String goodname) {
 		this.goodname = goodname;
 	}
 	/**
-	 * 获取：商品名称
+	 * Get: Product name
 	 */
 	public String getGoodname() {
 		return goodname;
 	}
 	/**
-	 * 设置：图片
+	 * Settings: Pictures
 	 */
 	public void setPicture(String picture) {
 		this.picture = picture;
 	}
 	/**
-	 * 获取：图片
+	 * Get: Pictures
 	 */
 	public String getPicture() {
 		return picture;
 	}
 	/**
-	 * 设置：购买数量
+	 * Settings: Number of purchases
 	 */
 	public void setBuynumber(Integer buynumber) {
 		this.buynumber = buynumber;
 	}
 	/**
-	 * 获取：购买数量
+	 * Access: Number of purchases
 	 */
 	public Integer getBuynumber() {
 		return buynumber;
 	}
 	/**
-	 * 设置：单价
+	 * Settings: price
 	 */
 	public void setPrice(Float price) {
 		this.price = price;
 	}
 	/**
-	 * 获取：单价
+	 * Get: price
 	 */
 	public Float getPrice() {
 		return price;
 	}
 	/**
-	 * 设置：会员价
+	 * Setting: Member price
 	 */
 	public void setDiscountprice(Float discountprice) {
 		this.discountprice = discountprice;
 	}
 	/**
-	 * 获取：会员价
+	 * Get: Member price
 	 */
 	public Float getDiscountprice() {
 		return discountprice;
 	}
 	/**
-	 * 设置：商户名称
+	 * Settings: Merchant name
 	 */
 	public void setMaijiaxuehao(String maijiaxuehao) {
 		this.maijiaxuehao = maijiaxuehao;
 	}
 	/**
-	 * 获取：商户名称
+	 * Get: Merchant Name
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;

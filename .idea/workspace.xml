@@ -6,7 +6,112 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="356dcc6f-39a0-4a68-8da7-64ec6895ab9f" name="Default" comment="" />
+    <list default="true" id="356dcc6f-39a0-4a68-8da7-64ec6895ab9f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/annotation/IgnoreAuth.java" afterPath="$PROJECT_DIR$/src/main/java/com/annotation/IgnoreAuth.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/annotation/LoginUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/annotation/LoginUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/AlipayConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/config/AlipayConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/MyMetaObjectHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/config/MyMetaObjectHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/AddressController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/AddressController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/CartController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/CommonController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/CommonController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ConfigController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ConfigController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DiscusstushuxinxiController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/DiscusstushuxinxiController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/FileController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/LiaotianjiluController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/LiaotianjiluController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/MaijiaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/MaijiaController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/NewsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/NewsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/OrdersController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/OrdersController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/StoreupController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/StoreupController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/TushufenleiController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/TushufenleiController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/TushuxinxiController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/TushuxinxiController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/UsersController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/UsersController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/YonghuController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/YonghuController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/CartDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/CartDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/CommonDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/CommonDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/ConfigDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/ConfigDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/DiscusstushuxinxiDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/DiscusstushuxinxiDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/LiaotianjiluDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/LiaotianjiluDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/MaijiaDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/MaijiaDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/NewsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/NewsDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/OrdersDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/OrdersDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/StoreupDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/StoreupDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/TushufenleiDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/TushufenleiDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/TushuxinxiDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/TushuxinxiDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/UsersDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/UsersDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/YonghuDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/YonghuDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/AddressEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/AddressEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/CartEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/CartEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/ConfigEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/ConfigEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/DiscusstushuxinxiEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/DiscusstushuxinxiEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/EIException.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/EIException.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/LiaotianjiluEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/LiaotianjiluEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/MaijiaEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/MaijiaEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/NewsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/NewsEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/OrdersEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/OrdersEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/StoreupEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/StoreupEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/TokenEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/TokenEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/TushufenleiEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/TushufenleiEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/TushuxinxiEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/TushuxinxiEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/UsersEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/UsersEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/YonghuEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/YonghuEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/AddressModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/AddressModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/CartModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/CartModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusstushuxinxiModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusstushuxinxiModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/LiaotianjiluModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/LiaotianjiluModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/MaijiaModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/MaijiaModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/NewsModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/NewsModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/OrdersModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/OrdersModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/StoreupModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/StoreupModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/TushufenleiModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/TushufenleiModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/TushuxinxiModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/TushuxinxiModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/YonghuModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/YonghuModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/AddressView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/AddressView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/CartView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/CartView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusstushuxinxiView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusstushuxinxiView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/LiaotianjiluView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/LiaotianjiluView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/MaijiaView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/MaijiaView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/NewsView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/NewsView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/OrdersView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/OrdersView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/StoreupView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/StoreupView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/TushufenleiView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/TushufenleiView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/TushuxinxiView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/TushuxinxiView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/YonghuView.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/YonghuView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/AddressVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/AddressVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/CartVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/CartVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusstushuxinxiVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusstushuxinxiVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/LiaotianjiluVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/LiaotianjiluVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/MaijiaVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/MaijiaVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/NewsVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/NewsVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/OrdersVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/OrdersVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/StoreupVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/StoreupVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/TushufenleiVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/TushufenleiVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/TushuxinxiVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/TushuxinxiVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/YonghuVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/YonghuVO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interceptor/AuthorizationInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/interceptor/AuthorizationInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/enums/TypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/model/enums/TypeEnum.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/AddressService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/AddressService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/CartService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/CartService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ConfigService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/ConfigService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/DiscusstushuxinxiService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/DiscusstushuxinxiService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/LiaotianjiluService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/LiaotianjiluService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/MaijiaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/MaijiaService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/OrdersService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/OrdersService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/StoreupService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/StoreupService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/TushufenleiService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/TushufenleiService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/TushuxinxiService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/TushuxinxiService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/UsersService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/YonghuService.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/YonghuService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/CommonServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/CommonServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/ConfigServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/ConfigServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/UsersServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UsersServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/Query.java" afterPath="$PROJECT_DIR$/src/main/java/com/utils/Query.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/doc/sys_user.sql" afterPath="$PROJECT_DIR$/src/main/resources/doc/sys_user.sql" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,28 +139,47 @@
     <favorites_list name="ssm591p5" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TushuxinxiController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/TushuxinxiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ssm591p5</find>
+      <find>内容</find>
+      <find>收藏表</find>
+      <find>类型(1:收藏,21:赞,22:踩)</find>
+      <find>聊天记录</find>
+      <find>后端列表</find>
+      <find>前端列表</find>
+      <find>列表</find>
+      <find>查询参数</find>
+      <find>后端详情</find>
+      <find>前端详情</find>
+      <find>后端保存</find>
+      <find>前端保存</find>
+      <find>修改</find>
+      <find>全部更新</find>
+      <find>删除</find>
+      <find>提醒接口</find>
+      <find>通用接口</find>
+      <find>保</find>
+      <find>根据name获取信息</find>
+      <find>信息</find>
+      <find>上传文件映射表</find>
+      <find>下载文件</find>
       <find>登录</find>
-      <find>账号或密码不正确</find>
+      <find>获取用户的session用户信息</find>
+      <find>后端接口</find>
+      <find>（按值统计）</find>
+      <find>注册</find>
+      <find>退出</find>
+      <find>后端返回视图实体辅助类</find>
+      <find>（通常后端关联的表或者自定义的字段需要返回使用</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -65,7 +189,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/CartDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/CommonDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/ConfigDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/DiscusstushuxinxiDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/LiaotianjiluDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/MaijiaDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/NewsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/OrdersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/StoreupDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/TushufenleiDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/TushuxinxiDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/UsersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/YonghuDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/AddressEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/CartEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/ConfigEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/EIException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/DiscusstushuxinxiEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/LiaotianjiluEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/MaijiaEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/NewsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/OrdersEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/model/OrdersModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/StoreupEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/TokenEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/TushufenleiEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/TushuxinxiEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/UsersEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/YonghuEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/model/AddressModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/model/CartModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusstushuxinxiModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/model/MaijiaModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/model/NewsModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/model/StoreupModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/CommonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/ConfigController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/MaijiaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/OrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/annotation/IgnoreAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/config/MyMetaObjectHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interceptor/AuthorizationInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/enums/TypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/doc/sys_user.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/view/AddressView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/entity/view/CartView.java" />
       </list>
     </option>
   </component>
@@ -126,11 +300,11 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1070" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -156,6 +330,64 @@
               <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm591p5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm591p5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +398,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ssm591p5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -381,12 +613,12 @@
       <workItem from="1667612641043" duration="928000" />
       <workItem from="1667782905950" duration="2570000" />
       <workItem from="1667821257627" duration="1716000" />
-      <workItem from="1667823076048" duration="3195000" />
+      <workItem from="1667823076048" duration="20312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10909000" />
+    <option name="totallyTimeSpent" value="28026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,15 +649,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5375817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23240589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.4876325" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.4876325" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5123675" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -446,649 +678,429 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/ConfigController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="-949">
+          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AddressController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/DiscusstushuxinxiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
+        <state relative-caret-position="-2432">
           <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/ssm591p5.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1662894397000" expanded="true" signature="184:248" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="250:316" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="318:382" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="384:410" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="412:454" ph="/*!40103 SET... " />
-            <marker date="1662894397000" expanded="true" signature="456:490" ph="/*!40103 SET... " />
-            <marker date="1662894397000" expanded="true" signature="492:559" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="561:643" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="645:719" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="721:776" ph="/*!40111 SET... " />
-            <marker date="1662894397000" expanded="true" signature="818:863" ph="/*!40000 DRO... " />
-            <marker date="1662894397000" expanded="true" signature="882:906" ph="/*!32312 IF " />
-            <marker date="1662894397000" expanded="true" signature="918:959" ph="/*!40100 DEF... " />
-            <marker date="1662894397000" expanded="true" signature="1025:1055" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="1057:1118" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="1120:1163" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="1165:1664" ph="CREATE TABLE... address" />
-            <marker date="1662894397000" expanded="true" signature="1666:1721" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="1796:1842" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="1844:2330" ph="INSERT INTO `address`... " />
-            <marker date="1662894397000" expanded="true" signature="2332:2377" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="2438:2465" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="2467:2528" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="2530:2573" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="2575:3264" ph="CREATE TABLE... cart" />
-            <marker date="1662894397000" expanded="true" signature="3266:3321" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="3390:3433" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="3435:3477" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="3540:3569" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="3571:3632" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="3634:3677" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="3679:3950" ph="CREATE TABLE... config" />
-            <marker date="1662894397000" expanded="true" signature="3952:4007" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="4080:4125" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="4127:4265" ph="INSERT INTO `config`... " />
-            <marker date="1662894397000" expanded="true" signature="4267:4311" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="4385:4425" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="4427:4488" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="4490:4533" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="4535:5032" ph="CREATE TABLE... discusstushuxinxi" />
-            <marker date="1662894397000" expanded="true" signature="5034:5089" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="5184:5240" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="5242:5684" ph="INSERT INTO `discusstushuxinxi`... " />
-            <marker date="1662894397000" expanded="true" signature="5686:5741" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="5810:5845" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="5847:5908" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="5910:5953" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="5955:6510" ph="CREATE TABLE... liaotianjilu" />
-            <marker date="1662894397000" expanded="true" signature="6512:6567" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="6652:6703" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="6705:7122" ph="INSERT INTO `liaotianjilu`... " />
-            <marker date="1662894397000" expanded="true" signature="7124:7174" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="7237:7266" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="7268:7329" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="7331:7374" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="7376:8023" ph="CREATE TABLE... maijia" />
-            <marker date="1662894397000" expanded="true" signature="8025:8080" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="8153:8198" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="8200:8851" ph="INSERT INTO `maijia`... " />
-            <marker date="1662894397000" expanded="true" signature="8853:8897" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="8958:8985" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="8987:9048" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="9050:9093" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="9095:9515" ph="CREATE TABLE... news" />
-            <marker date="1662894397000" expanded="true" signature="9517:9572" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="9641:9684" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="9686:15303" ph="INSERT INTO `news`... " />
-            <marker date="1662894397000" expanded="true" signature="15305:15347" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="15410:15439" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="15441:15502" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="15504:15547" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="15549:16807" ph="CREATE TABLE... orders" />
-            <marker date="1662894397000" expanded="true" signature="16809:16864" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="16937:16982" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="16984:17208" ph="INSERT INTO `orders`... " />
-            <marker date="1662894397000" expanded="true" signature="17210:17254" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="17318:17348" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="17350:17411" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="17413:17456" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="17458:18051" ph="CREATE TABLE... storeup" />
-            <marker date="1662894397000" expanded="true" signature="18053:18108" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="18183:18229" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="18231:18276" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="18338:18366" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="18368:18429" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="18431:18474" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="18476:19044" ph="CREATE TABLE... token" />
-            <marker date="1662894397000" expanded="true" signature="19046:19101" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="19172:19216" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="19218:19458" ph="INSERT INTO `token`... " />
-            <marker date="1662894397000" expanded="true" signature="19460:19503" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="19571:19605" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="19607:19668" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="19670:19713" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="19715:20061" ph="CREATE TABLE... tushufenlei" />
-            <marker date="1662894397000" expanded="true" signature="20063:20118" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="20201:20251" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="20253:20495" ph="INSERT INTO `tushufenlei`... " />
-            <marker date="1662894397000" expanded="true" signature="20497:20546" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="20613:20646" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="20648:20709" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="20711:20754" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="20756:21656" ph="CREATE TABLE... tushuxinxi" />
-            <marker date="1662894397000" expanded="true" signature="21658:21713" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="21794:21843" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="21845:22734" ph="INSERT INTO `tushuxinxi`... " />
-            <marker date="1662894397000" expanded="true" signature="22736:22784" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="22846:22874" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="22876:22937" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="22939:22982" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="22984:23373" ph="CREATE TABLE... users" />
-            <marker date="1662894397000" expanded="true" signature="23375:23430" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="23501:23545" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="23547:23617" ph="INSERT INTO `users`... " />
-            <marker date="1662894397000" expanded="true" signature="23619:23662" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="23725:23754" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="23756:23817" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="23819:23862" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="23864:24478" ph="CREATE TABLE... yonghu" />
-            <marker date="1662894397000" expanded="true" signature="24480:24535" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="24608:24653" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="24655:25282" ph="INSERT INTO `yonghu`... " />
-            <marker date="1662894397000" expanded="true" signature="25284:25328" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="25345:25385" ph="/*!40103 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25388:25426" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25428:25486" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25488:25536" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25538:25600" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25602:25666" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25668:25730" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25732:25772" ph="/*!40111 SET... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="267">
+          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/LiaotianjiluController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="-3514">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/IgnoreAuth.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/MaijiaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="-3742">
+          <caret line="100" column="46" lean-forward="true" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interceptor/AuthorizationInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        <state relative-caret-position="-3286">
+          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/OrdersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="295" column="26" lean-forward="false" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/StoreupController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/IgnoreAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interceptor/AuthorizationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/IgnoreAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interceptor/AuthorizationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="85" column="21" lean-forward="false" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../java/abo-idea/abo-idea/abo/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38-sources.jar!/com/mysql/jdbc/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/OrdersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ssm591p5.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1662894397000" expanded="true" signature="184:248" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="250:316" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="318:382" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="384:410" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="412:454" ph="/*!40103 SET... " />
-            <marker date="1662894397000" expanded="true" signature="456:490" ph="/*!40103 SET... " />
-            <marker date="1662894397000" expanded="true" signature="492:559" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="561:643" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="645:719" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="721:776" ph="/*!40111 SET... " />
-            <marker date="1662894397000" expanded="true" signature="818:863" ph="/*!40000 DRO... " />
-            <marker date="1662894397000" expanded="true" signature="882:906" ph="/*!32312 IF " />
-            <marker date="1662894397000" expanded="true" signature="918:959" ph="/*!40100 DEF... " />
-            <marker date="1662894397000" expanded="true" signature="1025:1055" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="1057:1118" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="1120:1163" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="1165:1664" ph="CREATE TABLE... address" />
-            <marker date="1662894397000" expanded="true" signature="1666:1721" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="1796:1842" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="1844:2330" ph="INSERT INTO `address`... " />
-            <marker date="1662894397000" expanded="true" signature="2332:2377" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="2438:2465" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="2467:2528" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="2530:2573" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="2575:3264" ph="CREATE TABLE... cart" />
-            <marker date="1662894397000" expanded="true" signature="3266:3321" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="3390:3433" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="3435:3477" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="3540:3569" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="3571:3632" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="3634:3677" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="3679:3950" ph="CREATE TABLE... config" />
-            <marker date="1662894397000" expanded="true" signature="3952:4007" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="4080:4125" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="4127:4265" ph="INSERT INTO `config`... " />
-            <marker date="1662894397000" expanded="true" signature="4267:4311" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="4385:4425" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="4427:4488" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="4490:4533" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="4535:5032" ph="CREATE TABLE... discusstushuxinxi" />
-            <marker date="1662894397000" expanded="true" signature="5034:5089" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="5184:5240" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="5242:5684" ph="INSERT INTO `discusstushuxinxi`... " />
-            <marker date="1662894397000" expanded="true" signature="5686:5741" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="5810:5845" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="5847:5908" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="5910:5953" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="5955:6510" ph="CREATE TABLE... liaotianjilu" />
-            <marker date="1662894397000" expanded="true" signature="6512:6567" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="6652:6703" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="6705:7122" ph="INSERT INTO `liaotianjilu`... " />
-            <marker date="1662894397000" expanded="true" signature="7124:7174" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="7237:7266" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="7268:7329" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="7331:7374" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="7376:8023" ph="CREATE TABLE... maijia" />
-            <marker date="1662894397000" expanded="true" signature="8025:8080" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="8153:8198" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="8200:8851" ph="INSERT INTO `maijia`... " />
-            <marker date="1662894397000" expanded="true" signature="8853:8897" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="8958:8985" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="8987:9048" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="9050:9093" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="9095:9515" ph="CREATE TABLE... news" />
-            <marker date="1662894397000" expanded="true" signature="9517:9572" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="9641:9684" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="9686:15303" ph="INSERT INTO `news`... " />
-            <marker date="1662894397000" expanded="true" signature="15305:15347" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="15410:15439" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="15441:15502" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="15504:15547" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="15549:16807" ph="CREATE TABLE... orders" />
-            <marker date="1662894397000" expanded="true" signature="16809:16864" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="16937:16982" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="16984:17208" ph="INSERT INTO `orders`... " />
-            <marker date="1662894397000" expanded="true" signature="17210:17254" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="17318:17348" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="17350:17411" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="17413:17456" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="17458:18051" ph="CREATE TABLE... storeup" />
-            <marker date="1662894397000" expanded="true" signature="18053:18108" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="18183:18229" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="18231:18276" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="18338:18366" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="18368:18429" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="18431:18474" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="18476:19044" ph="CREATE TABLE... token" />
-            <marker date="1662894397000" expanded="true" signature="19046:19101" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="19172:19216" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="19218:19458" ph="INSERT INTO `token`... " />
-            <marker date="1662894397000" expanded="true" signature="19460:19503" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="19571:19605" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="19607:19668" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="19670:19713" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="19715:20061" ph="CREATE TABLE... tushufenlei" />
-            <marker date="1662894397000" expanded="true" signature="20063:20118" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="20201:20251" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="20253:20495" ph="INSERT INTO `tushufenlei`... " />
-            <marker date="1662894397000" expanded="true" signature="20497:20546" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="20613:20646" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="20648:20709" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="20711:20754" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="20756:21656" ph="CREATE TABLE... tushuxinxi" />
-            <marker date="1662894397000" expanded="true" signature="21658:21713" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="21794:21843" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="21845:22734" ph="INSERT INTO `tushuxinxi`... " />
-            <marker date="1662894397000" expanded="true" signature="22736:22784" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="22846:22874" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="22876:22937" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="22939:22982" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="22984:23373" ph="CREATE TABLE... users" />
-            <marker date="1662894397000" expanded="true" signature="23375:23430" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="23501:23545" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="23547:23617" ph="INSERT INTO `users`... " />
-            <marker date="1662894397000" expanded="true" signature="23619:23662" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="23725:23754" ph="DROP TABLE I... " />
-            <marker date="1662894397000" expanded="true" signature="23756:23817" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="23819:23862" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="23864:24478" ph="CREATE TABLE... yonghu" />
-            <marker date="1662894397000" expanded="true" signature="24480:24535" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="24608:24653" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="24655:25282" ph="INSERT INTO `yonghu`... " />
-            <marker date="1662894397000" expanded="true" signature="25284:25328" ph="/*!40000 ALT... " />
-            <marker date="1662894397000" expanded="true" signature="25345:25385" ph="/*!40103 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25388:25426" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25428:25486" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25488:25536" ph="/*!40014 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25538:25600" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25602:25666" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25668:25730" ph="/*!40101 SET... " />
-            <marker date="1662894397000" expanded="true" signature="25732:25772" ph="/*!40111 SET... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="-2868">
           <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/CommonController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/TushufenleiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="-3191">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/TushuxinxiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        <state relative-caret-position="-3438">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1747">
+          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/YonghuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4730">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/CartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/CommonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/ConfigDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/DiscusstushuxinxiDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/LiaotianjiluDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/MaijiaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/StoreupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/YonghuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/TushuxinxiDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/TokenDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/src/views/center.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="96" column="41" lean-forward="false" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/src/views/home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/APPLoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/IgnoreAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/annotation/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/AlipayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/MyMetaObjectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interceptor/AuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="54" column="83" lean-forward="false" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/enums/TypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/CommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/TushuxinxiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/TokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/BaiduUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AddressDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1662695121000" expanded="true" signature="628:704" ph="SELECT * FRO... address" />
+            <marker date="1662695121000" expanded="true" signature="792:863" ph="SELECT addre... address" />
+            <marker date="1662695121000" expanded="true" signature="964:1050" ph="SELECT addre... address" />
+            <marker date="1662695121000" expanded="true" signature="1144:1203" ph="SELECT * FRO... address" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/sys_user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommonDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1662695121000" expanded="true" signature="673:726" ph="SELECT * FRO... ${table}" />
+            <marker date="1662695121000" expanded="true" signature="760:807" ph="UPDATE ${table}... " />
+            <marker date="1662695121000" expanded="true" signature="1461:1557" ph="SELECT sum($... " />
+            <marker date="1662695121000" expanded="true" signature="1618:1684" ph="SELECT ${col... ${table}" />
+            <marker date="1662695121000" expanded="true" signature="1745:1819" ph="SELECT ${xCo... ${table}" />
+            <marker date="1662695121000" expanded="true" signature="1924:2057" ph="SELECT DATE_... ${table}" />
+            <marker date="1662695121000" expanded="true" signature="2105:2232" ph="SELECT DATE_... ${table}" />
+            <marker date="1662695121000" expanded="true" signature="2280:2401" ph="SELECT DATE_... ${table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CartDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1662695120000" expanded="true" signature="864:934" ph="SELECT * FRO... cart" />
+            <marker date="1662695120000" expanded="true" signature="1019:1081" ph="SELECT cart.... cart" />
+            <marker date="1662695120000" expanded="true" signature="1179:1256" ph="SELECT cart.... cart" />
+            <marker date="1662695120000" expanded="true" signature="1347:1400" ph="SELECT * FRO... cart" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/view/DiscusstushuxinxiView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/view/CartView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/view/AddressView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1147,11 +1159,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|ssm591p5</last-edited>
+          <last-edited>ssm591p5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1171,6 +1184,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: cn.hutool:hutool-all:4.0.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

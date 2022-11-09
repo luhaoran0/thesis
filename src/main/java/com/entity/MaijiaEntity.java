@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 卖家
- * 数据库通用操作实体类（普通增删改查）
+ * Sellers
+ * Database general operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,48 +47,48 @@ public class MaijiaEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 卖家学号
+	 * Seller's school number
 	 */
 					
 	private String maijiaxuehao;
 	
 	/**
-	 * 密码
+	 * Password
 	 */
 					
 	private String mima;
 	
 	/**
-	 * 卖家姓名
+	 * Seller's name
 	 */
 					
 	private String maijiaxingming;
 	
 	/**
-	 * 性别
+	 * Gender
 	 */
 					
 	private String xingbie;
 	
 	/**
-	 * 照片
+	 * Photo
 	 */
 					
 	private String zhaopian;
 	
 	/**
-	 * 联系电话
+	 * Contact number
 	 */
 					
 	private String lianxidianhua;
 	
 	/**
-	 * 余额
+	 * Balance
 	 */
 					
 	private Float money;
@@ -113,85 +113,85 @@ public class MaijiaEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：卖家学号
+	 * Settings：Seller's school number
 	 */
 	public void setMaijiaxuehao(String maijiaxuehao) {
 		this.maijiaxuehao = maijiaxuehao;
 	}
 	/**
-	 * 获取：卖家学号
+	 * Get：Seller's school number
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;
 	}
 	/**
-	 * 设置：密码
+	 * Settings：Password
 	 */
 	public void setMima(String mima) {
 		this.mima = mima;
 	}
 	/**
-	 * 获取：密码
+	 * Get：Password
 	 */
 	public String getMima() {
 		return mima;
 	}
 	/**
-	 * 设置：卖家姓名
+	 * Settings：Seller's name
 	 */
 	public void setMaijiaxingming(String maijiaxingming) {
 		this.maijiaxingming = maijiaxingming;
 	}
 	/**
-	 * 获取：卖家姓名
+	 * Get：Seller's name
 	 */
 	public String getMaijiaxingming() {
 		return maijiaxingming;
 	}
 	/**
-	 * 设置：性别
+	 * Settings：Gender
 	 */
 	public void setXingbie(String xingbie) {
 		this.xingbie = xingbie;
 	}
 	/**
-	 * 获取：性别
+	 * Get：Gender
 	 */
 	public String getXingbie() {
 		return xingbie;
 	}
 	/**
-	 * 设置：照片
+	 * Settings：Photo
 	 */
 	public void setZhaopian(String zhaopian) {
 		this.zhaopian = zhaopian;
 	}
 	/**
-	 * 获取：照片
+	 * Get：Photo
 	 */
 	public String getZhaopian() {
 		return zhaopian;
 	}
 	/**
-	 * 设置：联系电话
+	 * Settings：Contact number
 	 */
 	public void setLianxidianhua(String lianxidianhua) {
 		this.lianxidianhua = lianxidianhua;
 	}
 	/**
-	 * 获取：联系电话
+	 * Get：Contact number
 	 */
 	public String getLianxidianhua() {
 		return lianxidianhua;
 	}
 	/**
-	 * 设置：余额
+	 * Settings：Balance
 	 */
 	public void setMoney(Float money) {
 		this.money = money;
 	}
 	/**
-	 * 获取：余额
+	 * Get：Balance
 	 */
 	public Float getMoney() {
 		return money;

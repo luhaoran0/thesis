@@ -13,7 +13,7 @@ import com.entity.view.NewsView;
 
 
 /**
- * 公告信息
+ * Announcement Information
  * 
  * @author 
  * @email 

@@ -24,7 +24,7 @@ import com.service.ConfigService;
 import com.utils.R;
 
 /**
- * 上传文件映射表
+ * Upload file mapping table
  */
 @RestController
 @RequestMapping("file")
@@ -33,7 +33,7 @@ public class FileController{
 	@Autowired
     private ConfigService configService;
 	/**
-	 * 上传文件
+	 * Upload files
 	 */
 	@RequestMapping("/upload")
     @IgnoreAuth
@@ -66,7 +66,7 @@ public class FileController{
 	}
 	
 	/**
-	 * 下载文件
+	 * Download file
 	 */
 	@IgnoreAuth
 	@RequestMapping("/download")

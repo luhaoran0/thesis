@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 图书分类
- * 数据库通用操作实体类（普通增删改查）
+ * Book classification
+ * Database general operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,12 +47,12 @@ public class TushufenleiEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 图书分类
+	 * Book classification
 	 */
 					
 	private String tushufenlei;
@@ -77,13 +77,13 @@ public class TushufenleiEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：图书分类
+	 * Setting：Book classification
 	 */
 	public void setTushufenlei(String tushufenlei) {
 		this.tushufenlei = tushufenlei;
 	}
 	/**
-	 * 获取：图书分类
+	 * Get：Book classification
 	 */
 	public String getTushufenlei() {
 		return tushufenlei;

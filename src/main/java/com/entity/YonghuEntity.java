@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 用户
- * 数据库通用操作实体类（普通增删改查）
+ * User
+ * Database general operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,48 +47,48 @@ public class YonghuEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 学号
+	 * Student ID
 	 */
 					
 	private String xuehao;
 	
 	/**
-	 * 密码
+	 * Password
 	 */
 					
 	private String mima;
 	
 	/**
-	 * 姓名
+	 * Name
 	 */
 					
 	private String xingming;
 	
 	/**
-	 * 性别
+	 * Gender
 	 */
 					
 	private String xingbie;
 	
 	/**
-	 * 头像
+	 * Photo
 	 */
 					
 	private String touxiang;
 	
 	/**
-	 * 手机
+	 * Mobile
 	 */
 					
 	private String shouji;
 	
 	/**
-	 * 余额
+	 * Balance
 	 */
 					
 	private Float money;
@@ -113,85 +113,85 @@ public class YonghuEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：学号
+	 * Setting：Student ID
 	 */
 	public void setXuehao(String xuehao) {
 		this.xuehao = xuehao;
 	}
 	/**
-	 * 获取：学号
+	 * Get：Student ID
 	 */
 	public String getXuehao() {
 		return xuehao;
 	}
 	/**
-	 * 设置：密码
+	 * Setting：Password
 	 */
 	public void setMima(String mima) {
 		this.mima = mima;
 	}
 	/**
-	 * 获取：密码
+	 * Get：Password
 	 */
 	public String getMima() {
 		return mima;
 	}
 	/**
-	 * 设置：姓名
+	 * Setting：Name
 	 */
 	public void setXingming(String xingming) {
 		this.xingming = xingming;
 	}
 	/**
-	 * 获取：姓名
+	 * Get：Name
 	 */
 	public String getXingming() {
 		return xingming;
 	}
 	/**
-	 * 设置：性别
+	 * Setting：Gender
 	 */
 	public void setXingbie(String xingbie) {
 		this.xingbie = xingbie;
 	}
 	/**
-	 * 获取：性别
+	 * Get：Gender
 	 */
 	public String getXingbie() {
 		return xingbie;
 	}
 	/**
-	 * 设置：头像
+	 * Setting：Photo
 	 */
 	public void setTouxiang(String touxiang) {
 		this.touxiang = touxiang;
 	}
 	/**
-	 * 获取：头像
+	 * Get：Photo
 	 */
 	public String getTouxiang() {
 		return touxiang;
 	}
 	/**
-	 * 设置：手机
+	 * Setting：Mobile
 	 */
 	public void setShouji(String shouji) {
 		this.shouji = shouji;
 	}
 	/**
-	 * 获取：手机
+	 * Get：Mobile
 	 */
 	public String getShouji() {
 		return shouji;
 	}
 	/**
-	 * 设置：余额
+	 * Setting：Balance
 	 */
 	public void setMoney(Float money) {
 		this.money = money;
 	}
 	/**
-	 * 获取：余额
+	 * Get：Balance
 	 */
 	public Float getMoney() {
 		return money;

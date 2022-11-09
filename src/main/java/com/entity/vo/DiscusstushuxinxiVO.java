@@ -11,7 +11,7 @@ import java.io.Serializable;
  
 
 /**
- * 图书信息评论表
+ * Book Information Review Form
  * 手机端接口返回实体辅助类 
  * （主要作用去除一些不必要的字段）
  * @author 
@@ -23,32 +23,32 @@ public class DiscusstushuxinxiVO  implements Serializable {
 
 	 			
 	/**
-	 * 用户id
+	 * User id
 	 */
 	
 	private Long userid;
 		
 	/**
-	 * 用户名
+	 * Username
 	 */
 	
 	private String nickname;
 		
 	/**
-	 * 评论内容
+	 * Comments
 	 */
 	
 	private String content;
 		
 	/**
-	 * 回复内容
+	 * Reply Content
 	 */
 	
 	private String reply;
 				
 	
 	/**
-	 * 设置：用户id
+	 * Setting：User id
 	 */
 	 
 	public void setUserid(Long userid) {
@@ -56,7 +56,7 @@ public class DiscusstushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：用户id
+	 * Get：User id
 	 */
 	public Long getUserid() {
 		return userid;
@@ -64,7 +64,7 @@ public class DiscusstushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：用户名
+	 * Setting：Username
 	 */
 	 
 	public void setNickname(String nickname) {
@@ -72,7 +72,7 @@ public class DiscusstushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：用户名
+	 * Get：Username
 	 */
 	public String getNickname() {
 		return nickname;
@@ -80,7 +80,7 @@ public class DiscusstushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：评论内容
+	 * Setting：Comments
 	 */
 	 
 	public void setContent(String content) {
@@ -88,7 +88,7 @@ public class DiscusstushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：评论内容
+	 * Get：Comments
 	 */
 	public String getContent() {
 		return content;
@@ -96,7 +96,7 @@ public class DiscusstushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：回复内容
+	 * Setting：Reply Content
 	 */
 	 
 	public void setReply(String reply) {
@@ -104,7 +104,7 @@ public class DiscusstushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：回复内容
+	 * Get：Reply Content
 	 */
 	public String getReply() {
 		return reply;

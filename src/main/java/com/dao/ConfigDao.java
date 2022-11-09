@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.entity.ConfigEntity;
 
 /**
- * 配置
+ * Configuration
  */
 public interface ConfigDao extends BaseMapper<ConfigEntity> {
 	

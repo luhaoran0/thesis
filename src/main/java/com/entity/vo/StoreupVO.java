@@ -11,7 +11,7 @@ import java.io.Serializable;
  
 
 /**
- * 收藏表
+ * Collection Table
  * 手机端接口返回实体辅助类 
  * （主要作用去除一些不必要的字段）
  * @author 
@@ -23,44 +23,44 @@ public class StoreupVO  implements Serializable {
 
 	 			
 	/**
-	 * 收藏id
+	 * Collection id
 	 */
 	
 	private Long refid;
 		
 	/**
-	 * 表名
+	 * Table Name
 	 */
 	
 	private String tablename;
 		
 	/**
-	 * 收藏名称
+	 * Collection Name
 	 */
 	
 	private String name;
 		
 	/**
-	 * 收藏图片
+	 * Collection Pictures
 	 */
 	
 	private String picture;
 		
 	/**
-	 * 类型(1:收藏,21:赞,22:踩)
+	 * Type(1:Favorite,21:Like,22:Step)
 	 */
 	
 	private String type;
 		
 	/**
-	 * 推荐类型
+	 * Recommendation Type
 	 */
 	
 	private String inteltype;
 				
 	
 	/**
-	 * 设置：收藏id
+	 * Setting：Collection id
 	 */
 	 
 	public void setRefid(Long refid) {
@@ -68,7 +68,7 @@ public class StoreupVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：收藏id
+	 * Get：Collection id
 	 */
 	public Long getRefid() {
 		return refid;
@@ -76,7 +76,7 @@ public class StoreupVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：表名
+	 * Setting：Table Name
 	 */
 	 
 	public void setTablename(String tablename) {
@@ -84,7 +84,7 @@ public class StoreupVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：表名
+	 * Get：Table Name
 	 */
 	public String getTablename() {
 		return tablename;
@@ -92,7 +92,7 @@ public class StoreupVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：收藏名称
+	 * Setting：Collection Name
 	 */
 	 
 	public void setName(String name) {
@@ -100,7 +100,7 @@ public class StoreupVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：收藏名称
+	 * Get：Collection Name
 	 */
 	public String getName() {
 		return name;
@@ -108,7 +108,7 @@ public class StoreupVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：收藏图片
+	 * Setting：Collection Pictures
 	 */
 	 
 	public void setPicture(String picture) {
@@ -116,7 +116,7 @@ public class StoreupVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：收藏图片
+	 * Get：Collection Pictures
 	 */
 	public String getPicture() {
 		return picture;
@@ -124,7 +124,7 @@ public class StoreupVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：类型(1:收藏,21:赞,22:踩)
+	 * Setting：Type(1:Favorite,21:Like,22:Step)
 	 */
 	 
 	public void setType(String type) {
@@ -132,7 +132,7 @@ public class StoreupVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：类型(1:收藏,21:赞,22:踩)
+	 * Get：Type(1:Favorite,21:Like,22:Step)
 	 */
 	public String getType() {
 		return type;
@@ -140,7 +140,7 @@ public class StoreupVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：推荐类型
+	 * Setting：Recommendation Type
 	 */
 	 
 	public void setInteltype(String inteltype) {
@@ -148,7 +148,7 @@ public class StoreupVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：推荐类型
+	 * Get：Recommendation Type
 	 */
 	public String getInteltype() {
 		return inteltype;

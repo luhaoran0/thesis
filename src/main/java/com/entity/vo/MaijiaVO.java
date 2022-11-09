@@ -11,7 +11,7 @@ import java.io.Serializable;
  
 
 /**
- * 卖家
+ * Seller
  * 手机端接口返回实体辅助类 
  * （主要作用去除一些不必要的字段）
  * @author 
@@ -23,44 +23,44 @@ public class MaijiaVO  implements Serializable {
 
 	 			
 	/**
-	 * 密码
+	 * Password
 	 */
 	
 	private String mima;
 		
 	/**
-	 * 卖家姓名
+	 * Seller's name
 	 */
 	
 	private String maijiaxingming;
 		
 	/**
-	 * 性别
+	 * Gender
 	 */
 	
 	private String xingbie;
 		
 	/**
-	 * 照片
+	 * Photo
 	 */
 	
 	private String zhaopian;
 		
 	/**
-	 * 联系电话
+	 * Contact Number
 	 */
 	
 	private String lianxidianhua;
 		
 	/**
-	 * 余额
+	 * Balance
 	 */
 	
 	private Float money;
 				
 	
 	/**
-	 * 设置：密码
+	 * Setting：Password
 	 */
 	 
 	public void setMima(String mima) {
@@ -68,7 +68,7 @@ public class MaijiaVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：密码
+	 * Get：Password
 	 */
 	public String getMima() {
 		return mima;
@@ -76,7 +76,7 @@ public class MaijiaVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：卖家姓名
+	 * Setting：Seller's name
 	 */
 	 
 	public void setMaijiaxingming(String maijiaxingming) {
@@ -84,7 +84,7 @@ public class MaijiaVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：卖家姓名
+	 * Get：Seller's name
 	 */
 	public String getMaijiaxingming() {
 		return maijiaxingming;
@@ -92,7 +92,7 @@ public class MaijiaVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：性别
+	 * Setting：Gender
 	 */
 	 
 	public void setXingbie(String xingbie) {
@@ -100,7 +100,7 @@ public class MaijiaVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：性别
+	 * Get：Gender
 	 */
 	public String getXingbie() {
 		return xingbie;
@@ -108,7 +108,7 @@ public class MaijiaVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：照片
+	 * Setting：Photo
 	 */
 	 
 	public void setZhaopian(String zhaopian) {
@@ -116,7 +116,7 @@ public class MaijiaVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：照片
+	 * Get：Photo
 	 */
 	public String getZhaopian() {
 		return zhaopian;
@@ -124,7 +124,7 @@ public class MaijiaVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：联系电话
+	 * Setting：Contact Number
 	 */
 	 
 	public void setLianxidianhua(String lianxidianhua) {
@@ -132,7 +132,7 @@ public class MaijiaVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：联系电话
+	 * Get：Contact Number
 	 */
 	public String getLianxidianhua() {
 		return lianxidianhua;
@@ -140,7 +140,7 @@ public class MaijiaVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：余额
+	 * Setting：Balance
 	 */
 	 
 	public void setMoney(Float money) {
@@ -148,7 +148,7 @@ public class MaijiaVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：余额
+	 * Get：Balance
 	 */
 	public Float getMoney() {
 		return money;

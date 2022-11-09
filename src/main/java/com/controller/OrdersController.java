@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 订单
- * 后端接口
+ * Orders
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -56,7 +56,7 @@ public class OrdersController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,OrdersEntity orders, 
@@ -80,7 +80,7 @@ public class OrdersController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
 	@IgnoreAuth
     @RequestMapping("/list")
@@ -93,7 +93,7 @@ public class OrdersController {
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/lists")
     public R list( OrdersEntity orders){
@@ -103,7 +103,7 @@ public class OrdersController {
     }
 
 	 /**
-     * 查询
+     * Search
      */
     @RequestMapping("/query")
     public R query(OrdersEntity orders){
@@ -114,7 +114,7 @@ public class OrdersController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -123,7 +123,7 @@ public class OrdersController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -136,7 +136,7 @@ public class OrdersController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody OrdersEntity orders, HttpServletRequest request){
@@ -149,7 +149,7 @@ public class OrdersController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody OrdersEntity orders, HttpServletRequest request){
@@ -162,19 +162,19 @@ public class OrdersController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody OrdersEntity orders, HttpServletRequest request){
         //ValidatorUtils.validateEntity(orders);
-        ordersService.updateById(orders);//全部更新
+        ordersService.updateById(orders);//Update all
         return R.ok();
     }
     
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -183,7 +183,7 @@ public class OrdersController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 
@@ -240,7 +240,7 @@ public class OrdersController {
 
 
     /**
-     * （按值统计）
+     * (Statistics by value)
      */
     @RequestMapping("/value/{xColumnName}/{yColumnName}")
     public R value(@PathVariable("yColumnName") String yColumnName, @PathVariable("xColumnName") String xColumnName,HttpServletRequest request) {
@@ -266,7 +266,7 @@ public class OrdersController {
     }
 
     /**
-     * （按值统计）时间统计类型
+     * (Statistics by value) Type of time statistics
      */
     @RequestMapping("/value/{xColumnName}/{yColumnName}/{timeStatType}")
     public R valueDay(@PathVariable("yColumnName") String yColumnName, @PathVariable("xColumnName") String xColumnName, @PathVariable("timeStatType") String timeStatType,HttpServletRequest request) {
@@ -293,7 +293,7 @@ public class OrdersController {
     }
 
     /**
-     * 分组统计
+     * Grouping statistics
      */
     @RequestMapping("/group/{columnName}")
     public R group(@PathVariable("columnName") String columnName,HttpServletRequest request) {

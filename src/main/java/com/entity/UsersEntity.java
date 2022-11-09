@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 
 /** 
- * 用户
+ * User
  */
 @TableName("users")
 public class UsersEntity implements Serializable {
@@ -18,17 +18,17 @@ public class UsersEntity implements Serializable {
 	private Long id;
 	
 	/**
-	 * 用户账号
+	 * User account
 	 */
 	private String username;
 	
 	/**
-	 * 密码
+	 * Password
 	 */
 	private String password;
 	
 	/**
-	 * 用户类型
+	 * role
 	 */
 	private String role;
 	

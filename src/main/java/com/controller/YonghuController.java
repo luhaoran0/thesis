@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 用户
- * 后端接口
+ * User
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -57,7 +57,7 @@ public class YonghuController {
 	private TokenService tokenService;
 	
 	/**
-	 * 登录
+	 * Login
 	 */
 	@IgnoreAuth
 	@RequestMapping(value = "/login")
@@ -71,7 +71,7 @@ public class YonghuController {
 	}
 	
 	/**
-     * 注册
+     * Registration
      */
 	@IgnoreAuth
     @RequestMapping("/register")
@@ -79,7 +79,7 @@ public class YonghuController {
     	//ValidatorUtils.validateEntity(yonghu);
     	YonghuEntity u = yonghuService.selectOne(new EntityWrapper<YonghuEntity>().eq("xuehao", yonghu.getXuehao()));
 		if(u!=null) {
-			return R.error("注册User already exists");
+			return R.error("Registration user already exists");
 		}
 		Long uId = new Date().getTime();
 		yonghu.setId(uId);
@@ -89,7 +89,7 @@ public class YonghuController {
 
 	
 	/**
-	 * 退出
+	 * Logout
 	 */
 	@RequestMapping("/logout")
 	public R logout(HttpServletRequest request) {
@@ -98,7 +98,7 @@ public class YonghuController {
 	}
 	
 	/**
-     * 获取用户的session用户信息
+     * Get the user's session user information
      */
     @RequestMapping("/session")
     public R getCurrUser(HttpServletRequest request){
@@ -108,7 +108,7 @@ public class YonghuController {
     }
     
     /**
-     * 密码重置
+     * Password Reset
      */
     @IgnoreAuth
 	@RequestMapping(value = "/resetPass")
@@ -124,7 +124,7 @@ public class YonghuController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,YonghuEntity yonghu, 
@@ -138,7 +138,7 @@ public class YonghuController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
 	@IgnoreAuth
     @RequestMapping("/list")
@@ -151,7 +151,7 @@ public class YonghuController {
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/lists")
     public R list( YonghuEntity yonghu){
@@ -161,7 +161,7 @@ public class YonghuController {
     }
 
 	 /**
-     * 查询
+     * Search
      */
     @RequestMapping("/query")
     public R query(YonghuEntity yonghu){
@@ -172,7 +172,7 @@ public class YonghuController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -181,7 +181,7 @@ public class YonghuController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -194,7 +194,7 @@ public class YonghuController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody YonghuEntity yonghu, HttpServletRequest request){
@@ -211,7 +211,7 @@ public class YonghuController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody YonghuEntity yonghu, HttpServletRequest request){
@@ -229,19 +229,19 @@ public class YonghuController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody YonghuEntity yonghu, HttpServletRequest request){
         //ValidatorUtils.validateEntity(yonghu);
-        yonghuService.updateById(yonghu);//全部更新
+        yonghuService.updateById(yonghu);//Update all
         return R.ok();
     }
     
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -250,7 +250,7 @@ public class YonghuController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 

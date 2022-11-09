@@ -11,7 +11,7 @@ import java.io.Serializable;
  
 
 /**
- * 图书信息
+ * Book Information
  * 手机端接口返回实体辅助类 
  * （主要作用去除一些不必要的字段）
  * @author 
@@ -23,74 +23,74 @@ public class TushuxinxiVO  implements Serializable {
 
 	 			
 	/**
-	 * 图书分类
+	 * Book classification
 	 */
 	
 	private String tushufenlei;
 		
 	/**
-	 * 图书封面
+	 * Book Cover
 	 */
 	
 	private String tushufengmian;
 		
 	/**
-	 * 图书作者
+	 * Book Author
 	 */
 	
 	private String tushuzuozhe;
 		
 	/**
-	 * 图书成色
+	 * Book quality
 	 */
 	
 	private String tushuchengse;
 		
 	/**
-	 * 卖家学号
+	 *Seller's school number
 	 */
 	
 	private String maijiaxuehao;
 		
 	/**
-	 * 卖家姓名
+	 * Seller's name
 	 */
 	
 	private String maijiaxingming;
 		
 	/**
-	 * 联系电话
+	 * Contact Number
 	 */
 	
 	private String lianxidianhua;
 		
 	/**
-	 * 图书详情
+	 * Book Details
 	 */
 	
 	private String tushuxiangqing;
 		
 	/**
-	 * 单限
+	 * Order limit
 	 */
 	
 	private Integer onelimittimes;
 		
 	/**
-	 * 库存
+	 * Inventories
 	 */
 	
 	private Integer alllimittimes;
 		
 	/**
-	 * 价格
+	 * Price
 	 */
 	
 	private Float price;
 				
 	
 	/**
-	 * 设置：图书分类
+	 * Setting：Book classification
 	 */
 	 
 	public void setTushufenlei(String tushufenlei) {
@@ -98,7 +98,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：图书分类
+	 * Get：Book classification
 	 */
 	public String getTushufenlei() {
 		return tushufenlei;
@@ -106,7 +106,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：图书封面
+	 * Setting：Book Cover
 	 */
 	 
 	public void setTushufengmian(String tushufengmian) {
@@ -114,7 +114,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：图书封面
+	 * Get：Book Cover
 	 */
 	public String getTushufengmian() {
 		return tushufengmian;
@@ -122,7 +122,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：图书作者
+	 * Setting：Book Author
 	 */
 	 
 	public void setTushuzuozhe(String tushuzuozhe) {
@@ -130,7 +130,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：图书作者
+	 * Get：Book Author
 	 */
 	public String getTushuzuozhe() {
 		return tushuzuozhe;
@@ -138,7 +138,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：图书成色
+	 * Setting：Book quality
 	 */
 	 
 	public void setTushuchengse(String tushuchengse) {
@@ -146,7 +146,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：图书成色
+	 * Get：Book quality
 	 */
 	public String getTushuchengse() {
 		return tushuchengse;
@@ -154,7 +154,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：卖家学号
+	 * Setting：Seller's school number
 	 */
 	 
 	public void setMaijiaxuehao(String maijiaxuehao) {
@@ -162,7 +162,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：卖家学号
+	 * Get：Seller's school number
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;
@@ -170,7 +170,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：卖家姓名
+	 * Setting：Seller's name
 	 */
 	 
 	public void setMaijiaxingming(String maijiaxingming) {
@@ -178,7 +178,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：卖家姓名
+	 * Get：Seller's name
 	 */
 	public String getMaijiaxingming() {
 		return maijiaxingming;
@@ -186,7 +186,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：联系电话
+	 * Setting：Contact Number
 	 */
 	 
 	public void setLianxidianhua(String lianxidianhua) {
@@ -194,7 +194,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：联系电话
+	 * Get：Contact Number
 	 */
 	public String getLianxidianhua() {
 		return lianxidianhua;
@@ -202,7 +202,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：图书详情
+	 * Setting：Book Details
 	 */
 	 
 	public void setTushuxiangqing(String tushuxiangqing) {
@@ -210,7 +210,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：图书详情
+	 * Get：Book Details
 	 */
 	public String getTushuxiangqing() {
 		return tushuxiangqing;
@@ -218,7 +218,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：单限
+	 * Setting：Order limit
 	 */
 	 
 	public void setOnelimittimes(Integer onelimittimes) {
@@ -226,7 +226,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：单限
+	 * Get：Order limit
 	 */
 	public Integer getOnelimittimes() {
 		return onelimittimes;
@@ -234,7 +234,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：库存
+	 * Setting：Inventories
 	 */
 	 
 	public void setAlllimittimes(Integer alllimittimes) {
@@ -242,7 +242,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：库存
+	 * Get：Inventories
 	 */
 	public Integer getAlllimittimes() {
 		return alllimittimes;
@@ -250,7 +250,7 @@ public class TushuxinxiVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：价格
+	 * Setting：Price
 	 */
 	 
 	public void setPrice(Float price) {
@@ -258,7 +258,7 @@ public class TushuxinxiVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：价格
+	 * Get：Price
 	 */
 	public Float getPrice() {
 		return price;

@@ -10,8 +10,8 @@ import java.io.Serializable;
  
 
 /**
- * 聊天记录
- * 接收传参的实体类  
+ * Chat history
+ * Entity class for receiving passed parameters
  *（实际开发中配合移动端接口开发手动去掉些没用的字段， 后端一般用entity就够用了） 
  * 取自ModelAndView 的model名称
  * @author 
@@ -23,19 +23,19 @@ public class LiaotianjiluModel  implements Serializable {
 
 	 			
 	/**
-	 * 卖家学号
+	 * Seller's school number
 	 */
 	
 	private String maijiaxuehao;
 		
 	/**
-	 * 内容信息
+	 * Content Information
 	 */
 	
 	private String neirongxinxi;
 		
 	/**
-	 * 学号
+	 *Student ID
 	 */
 	
 	private String xuehao;
@@ -54,7 +54,7 @@ public class LiaotianjiluModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：卖家学号
+	 * Setting：Seller's school number
 	 */
 	 
 	public void setMaijiaxuehao(String maijiaxuehao) {
@@ -62,7 +62,7 @@ public class LiaotianjiluModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：卖家学号
+	 * Get：Seller's school number
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;
@@ -70,7 +70,7 @@ public class LiaotianjiluModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：内容信息
+	 * Setting：Content Information
 	 */
 	 
 	public void setNeirongxinxi(String neirongxinxi) {
@@ -78,7 +78,7 @@ public class LiaotianjiluModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：内容信息
+	 * Get：Content Information
 	 */
 	public String getNeirongxinxi() {
 		return neirongxinxi;
@@ -86,7 +86,7 @@ public class LiaotianjiluModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：学号
+	 * Setting：Student ID
 	 */
 	 
 	public void setXuehao(String xuehao) {
@@ -94,7 +94,7 @@ public class LiaotianjiluModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：学号
+	 * Get：Student ID
 	 */
 	public String getXuehao() {
 		return xuehao;
@@ -102,7 +102,7 @@ public class LiaotianjiluModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：是否审核
+	 * Setting：是否审核
 	 */
 	 
 	public void setSfsh(String sfsh) {
@@ -110,7 +110,7 @@ public class LiaotianjiluModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：是否审核
+	 * Get：是否审核
 	 */
 	public String getSfsh() {
 		return sfsh;
@@ -118,7 +118,7 @@ public class LiaotianjiluModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：审核回复
+	 * Setting：审核回复
 	 */
 	 
 	public void setShhf(String shhf) {
@@ -126,7 +126,7 @@ public class LiaotianjiluModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：审核回复
+	 * Get：审核回复
 	 */
 	public String getShhf() {
 		return shhf;

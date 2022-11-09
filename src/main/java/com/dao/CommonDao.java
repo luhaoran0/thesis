@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 通用接口
+ * Universal interface
  */
 public interface CommonDao{
 	List<String> getOption(Map<String, Object> params);

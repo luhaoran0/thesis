@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import com.baomidou.mybatisplus.plugins.Page;
 
 /**
- * 查询参数
+ * Query Parameters
  */
 public class Query<T> extends LinkedHashMap<String, Object> {
 	private static final long serialVersionUID = 1L;

@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 地址
- * 后端接口
+ * Address
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -56,7 +56,7 @@ public class AddressController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,AddressEntity address, 
@@ -73,7 +73,7 @@ public class AddressController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params,AddressEntity address, 
@@ -89,7 +89,7 @@ public class AddressController {
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/lists")
     public R list( AddressEntity address){
@@ -99,7 +99,7 @@ public class AddressController {
     }
 
 	 /**
-     * 查询
+     * Search
      */
     @RequestMapping("/query")
     public R query(AddressEntity address){
@@ -110,7 +110,7 @@ public class AddressController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -119,7 +119,7 @@ public class AddressController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -132,7 +132,7 @@ public class AddressController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody AddressEntity address, HttpServletRequest request){
@@ -150,7 +150,7 @@ public class AddressController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody AddressEntity address, HttpServletRequest request){
@@ -169,7 +169,7 @@ public class AddressController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
@@ -178,7 +178,7 @@ public class AddressController {
         if(address.getIsdefault().equals("Yes")) {
     		addressService.updateForSet("isdefault='No'", new EntityWrapper<AddressEntity>().eq("userid", request.getSession().getAttribute("userId")));
     	}
-        addressService.updateById(address);//全部更新
+        addressService.updateById(address);//Update all
         return R.ok();
     }
     
@@ -193,7 +193,7 @@ public class AddressController {
     }
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -202,7 +202,7 @@ public class AddressController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 

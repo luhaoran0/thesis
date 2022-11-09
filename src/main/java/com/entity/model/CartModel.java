@@ -10,8 +10,8 @@ import java.io.Serializable;
  
 
 /**
- * 购物车表
- * 接收传参的实体类  
+ * Shopping cart table
+ * Entity class for receiving passed parameters
  *（实际开发中配合移动端接口开发手动去掉些没用的字段， 后端一般用entity就够用了） 
  * 取自ModelAndView 的model名称
  * @author 
@@ -23,56 +23,56 @@ public class CartModel  implements Serializable {
 
 	 			
 	/**
-	 * 用户id
+	 * User id
 	 */
 	
 	private Long userid;
 		
 	/**
-	 * 商品id
+	 * Product id
 	 */
 	
 	private Long goodid;
 		
 	/**
-	 * 商品名称
+	 * Product Name
 	 */
 	
 	private String goodname;
 		
 	/**
-	 * 图片
+	 * Pictures
 	 */
 	
 	private String picture;
 		
 	/**
-	 * 购买数量
+	 * Number of purchases
 	 */
 	
 	private Integer buynumber;
 		
 	/**
-	 * 单价
+	 * Price
 	 */
 	
 	private Float price;
 		
 	/**
-	 * 会员价
+	 * Member price
 	 */
 	
 	private Float discountprice;
 		
 	/**
-	 * 商户名称
+	 * Merchant Name
 	 */
 	
 	private String maijiaxuehao;
 				
 	
 	/**
-	 * 设置：用户id
+	 * Setting：User id
 	 */
 	 
 	public void setUserid(Long userid) {
@@ -80,7 +80,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：用户id
+	 * Get：User id
 	 */
 	public Long getUserid() {
 		return userid;
@@ -88,7 +88,7 @@ public class CartModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：商品id
+	 * Setting：Product id
 	 */
 	 
 	public void setGoodid(Long goodid) {
@@ -96,7 +96,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商品id
+	 * Get：Product id
 	 */
 	public Long getGoodid() {
 		return goodid;
@@ -104,7 +104,7 @@ public class CartModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：商品名称
+	 * Setting：Product Name
 	 */
 	 
 	public void setGoodname(String goodname) {
@@ -112,7 +112,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商品名称
+	 * Get：Product Name
 	 */
 	public String getGoodname() {
 		return goodname;
@@ -120,7 +120,7 @@ public class CartModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：图片
+	 * Setting：Pictures
 	 */
 	 
 	public void setPicture(String picture) {
@@ -128,7 +128,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：图片
+	 * Get：Pictures
 	 */
 	public String getPicture() {
 		return picture;
@@ -136,7 +136,7 @@ public class CartModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：购买数量
+	 * Setting：Number of purchases
 	 */
 	 
 	public void setBuynumber(Integer buynumber) {
@@ -144,7 +144,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：购买数量
+	 * Get：Number of purchases
 	 */
 	public Integer getBuynumber() {
 		return buynumber;
@@ -152,7 +152,7 @@ public class CartModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：单价
+	 * Setting：Price
 	 */
 	 
 	public void setPrice(Float price) {
@@ -160,7 +160,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：单价
+	 * Get：Price
 	 */
 	public Float getPrice() {
 		return price;
@@ -168,7 +168,7 @@ public class CartModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：会员价
+	 * Setting：Member price
 	 */
 	 
 	public void setDiscountprice(Float discountprice) {
@@ -176,7 +176,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：会员价
+	 * Get：Member price
 	 */
 	public Float getDiscountprice() {
 		return discountprice;
@@ -184,7 +184,7 @@ public class CartModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：商户名称
+	 * Setting：Merchant Name
 	 */
 	 
 	public void setMaijiaxuehao(String maijiaxuehao) {
@@ -192,7 +192,7 @@ public class CartModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：商户名称
+	 * Get：Merchant Name
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;

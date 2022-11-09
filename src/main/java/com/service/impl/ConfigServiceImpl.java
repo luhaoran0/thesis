@@ -18,7 +18,7 @@ import com.utils.Query;
 
 
 /**
- * 系统用户
+ * System Users
  */
 @Service("configService")
 public class ConfigServiceImpl extends ServiceImpl<ConfigDao, ConfigEntity> implements ConfigService {

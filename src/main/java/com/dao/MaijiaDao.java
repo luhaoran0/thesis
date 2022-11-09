@@ -13,7 +13,7 @@ import com.entity.view.MaijiaView;
 
 
 /**
- * 卖家
+ * Sellers
  * 
  * @author 
  * @email 

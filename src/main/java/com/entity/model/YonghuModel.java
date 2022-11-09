@@ -10,8 +10,8 @@ import java.io.Serializable;
  
 
 /**
- * 用户
- * 接收传参的实体类  
+ * User
+ * Entity class for receiving passed parameters
  *（实际开发中配合移动端接口开发手动去掉些没用的字段， 后端一般用entity就够用了） 
  * 取自ModelAndView 的model名称
  * @author 
@@ -23,44 +23,44 @@ public class YonghuModel  implements Serializable {
 
 	 			
 	/**
-	 * 密码
+	 * Password
 	 */
 	
 	private String mima;
 		
 	/**
-	 * 姓名
+	 * Name
 	 */
 	
 	private String xingming;
 		
 	/**
-	 * 性别
+	 * Gender
 	 */
 	
 	private String xingbie;
 		
 	/**
-	 * 头像
+	 * Photo
 	 */
 	
 	private String touxiang;
 		
 	/**
-	 * 手机
+	 * Mobile
 	 */
 	
 	private String shouji;
 		
 	/**
-	 * 余额
+	 * Balance
 	 */
 	
 	private Float money;
 				
 	
 	/**
-	 * 设置：密码
+	 * Setting：Password
 	 */
 	 
 	public void setMima(String mima) {
@@ -68,7 +68,7 @@ public class YonghuModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：密码
+	 * Get：Password
 	 */
 	public String getMima() {
 		return mima;
@@ -76,7 +76,7 @@ public class YonghuModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：姓名
+	 * Setting：Name
 	 */
 	 
 	public void setXingming(String xingming) {
@@ -84,7 +84,7 @@ public class YonghuModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：姓名
+	 * Get：Name
 	 */
 	public String getXingming() {
 		return xingming;
@@ -92,7 +92,7 @@ public class YonghuModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：性别
+	 * Setting：Gender
 	 */
 	 
 	public void setXingbie(String xingbie) {
@@ -100,7 +100,7 @@ public class YonghuModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：性别
+	 * Get：Gender
 	 */
 	public String getXingbie() {
 		return xingbie;
@@ -108,7 +108,7 @@ public class YonghuModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：头像
+	 * Setting：Photo
 	 */
 	 
 	public void setTouxiang(String touxiang) {
@@ -116,7 +116,7 @@ public class YonghuModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：头像
+	 * Get：Photo
 	 */
 	public String getTouxiang() {
 		return touxiang;
@@ -124,7 +124,7 @@ public class YonghuModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：手机
+	 * Setting：Mobile
 	 */
 	 
 	public void setShouji(String shouji) {
@@ -132,7 +132,7 @@ public class YonghuModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：手机
+	 * Get：Mobile
 	 */
 	public String getShouji() {
 		return shouji;
@@ -140,7 +140,7 @@ public class YonghuModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：余额
+	 * Setting：Balance
 	 */
 	 
 	public void setMoney(Float money) {
@@ -148,7 +148,7 @@ public class YonghuModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：余额
+	 * Get：Balance
 	 */
 	public Float getMoney() {
 		return money;

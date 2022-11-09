@@ -10,9 +10,9 @@ import java.io.Serializable;
  
 
 /**
- * 用户
- * 后端返回视图实体辅助类   
- * （通常后端关联的表或者自定义的字段需要返回使用）
+ * User
+ * Back-end return view entity helper class
+
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05

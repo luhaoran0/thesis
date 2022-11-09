@@ -38,8 +38,8 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 /**
- * 图书分类
- * 后端接口
+ * Book classification
+ * Back-end Interface
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -56,7 +56,7 @@ public class TushufenleiController {
 
 
     /**
-     * 后端列表
+     * Backend List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,TushufenleiEntity tushufenlei, 
@@ -70,7 +70,7 @@ public class TushufenleiController {
     }
     
     /**
-     * 前端列表
+     * Front End List
      */
 	@IgnoreAuth
     @RequestMapping("/list")
@@ -83,7 +83,7 @@ public class TushufenleiController {
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/lists")
     public R list( TushufenleiEntity tushufenlei){
@@ -93,7 +93,7 @@ public class TushufenleiController {
     }
 
 	 /**
-     * 查询
+     * Search
      */
     @RequestMapping("/query")
     public R query(TushufenleiEntity tushufenlei){
@@ -104,7 +104,7 @@ public class TushufenleiController {
     }
 	
     /**
-     * 后端详情
+     * Back-end details
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
@@ -113,7 +113,7 @@ public class TushufenleiController {
     }
 
     /**
-     * 前端详情
+     * Front End Details
      */
 	@IgnoreAuth
     @RequestMapping("/detail/{id}")
@@ -126,7 +126,7 @@ public class TushufenleiController {
 
 
     /**
-     * 后端保存
+     * Back-end saving
      */
     @RequestMapping("/save")
     public R save(@RequestBody TushufenleiEntity tushufenlei, HttpServletRequest request){
@@ -138,7 +138,7 @@ public class TushufenleiController {
     }
     
     /**
-     * 前端保存
+     * Front-end saving
      */
     @RequestMapping("/add")
     public R add(@RequestBody TushufenleiEntity tushufenlei, HttpServletRequest request){
@@ -151,19 +151,19 @@ public class TushufenleiController {
 
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     @Transactional
     public R update(@RequestBody TushufenleiEntity tushufenlei, HttpServletRequest request){
         //ValidatorUtils.validateEntity(tushufenlei);
-        tushufenleiService.updateById(tushufenlei);//全部更新
+        tushufenleiService.updateById(tushufenlei);//Update all
         return R.ok();
     }
     
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
@@ -172,7 +172,7 @@ public class TushufenleiController {
     }
     
     /**
-     * 提醒接口
+     * Reminder Interface
      */
 	@RequestMapping("/remind/{columnName}/{type}")
 	public R remindCount(@PathVariable("columnName") String columnName, HttpServletRequest request, 

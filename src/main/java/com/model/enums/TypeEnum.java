@@ -5,7 +5,7 @@ import java.io.Serializable;
 import com.baomidou.mybatisplus.enums.IEnum;
 
 /**
- * 必须现在 IEnum 配置 该包扫描自动注入，查看文件 spring-mybatis.xml 参数 typeEnumsPackage
+ * IEnum must now be configured to scan for automatic injection of the package, see the file spring-mybatis.xml Arguments typeEnumsPackage
  */
 public enum TypeEnum implements IEnum {
     DISABLED(0, "禁用"),

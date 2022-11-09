@@ -13,7 +13,7 @@ import com.entity.view.TushuxinxiView;
 
 
 /**
- * 图书信息
+ * Book information
  * 
  * @author 
  * @email 

@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 地址
- * 数据库通用操作实体类（普通增删改查）
+ * Address
+ * Database generic operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,36 +47,36 @@ public class AddressEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 用户id
+	 * User id
 	 */
 					
 	private Long userid;
 	
 	/**
-	 * 地址
+	 * address
 	 */
 					
 	private String address;
 	
 	/**
-	 * 收货人
+	 * Receiver
 	 */
 					
 	private String name;
 	
 	/**
-	 * 电话
+	 * tel
 	 */
 					
 	private String phone;
 	
 	/**
-	 * 是否默认地址[是/否]
+	 * Default address or not [Yes/No]
 	 */
 					
 	private String isdefault;
@@ -101,61 +101,61 @@ public class AddressEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：用户id
+	 * Settings：User id
 	 */
 	public void setUserid(Long userid) {
 		this.userid = userid;
 	}
 	/**
-	 * 获取：用户id
+	 * Access：User id
 	 */
 	public Long getUserid() {
 		return userid;
 	}
 	/**
-	 * 设置：地址
+	 * Settings：address
 	 */
 	public void setAddress(String address) {
 		this.address = address;
 	}
 	/**
-	 * 获取：地址
+	 * Access:adress
 	 */
 	public String getAddress() {
 		return address;
 	}
 	/**
-	 * 设置：收货人
+	 * Setting: Receiver
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 	/**
-	 * 获取：收货人
+	 * Access:Receiver
 	 */
 	public String getName() {
 		return name;
 	}
 	/**
-	 * 设置：电话
+	 * Settings: Telephone
 	 */
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 	/**
-	 * 获取：电话
+	 * Access: Telephone
 	 */
 	public String getPhone() {
 		return phone;
 	}
 	/**
-	 * 设置：是否默认地址[是/否]
+	 * Setting: whether to default address [Yes/No]
 	 */
 	public void setIsdefault(String isdefault) {
 		this.isdefault = isdefault;
 	}
 	/**
-	 * 获取：是否默认地址[是/否]
+	 * Get: whether default address [Yes/No]
 	 */
 	public String getIsdefault() {
 		return isdefault;

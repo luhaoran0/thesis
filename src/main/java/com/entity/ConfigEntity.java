@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 
 /**
-* 类说明 : 
+* Class Description:
 */
 @TableName("config")
 public class ConfigEntity implements Serializable{

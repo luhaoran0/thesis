@@ -11,7 +11,7 @@ import java.io.Serializable;
  
 
 /**
- * 公告信息
+ * Announcement Information
  * 手机端接口返回实体辅助类 
  * （主要作用去除一些不必要的字段）
  * @author 
@@ -23,26 +23,26 @@ public class NewsVO  implements Serializable {
 
 	 			
 	/**
-	 * 简介
+	 *
 	 */
 	
 	private String introduction;
 		
 	/**
-	 * 图片
+	 * Pictures
 	 */
 	
 	private String picture;
 		
 	/**
-	 * 内容
+	 * Content
 	 */
 	
 	private String content;
 				
 	
 	/**
-	 * 设置：简介
+	 * Setting：Introduction
 	 */
 	 
 	public void setIntroduction(String introduction) {
@@ -50,7 +50,7 @@ public class NewsVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：简介
+	 * Get：Introduction
 	 */
 	public String getIntroduction() {
 		return introduction;
@@ -58,7 +58,7 @@ public class NewsVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：图片
+	 * Setting：Pictures
 	 */
 	 
 	public void setPicture(String picture) {
@@ -66,7 +66,7 @@ public class NewsVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：图片
+	 * Get：Pictures
 	 */
 	public String getPicture() {
 		return picture;
@@ -74,7 +74,7 @@ public class NewsVO  implements Serializable {
 				
 	
 	/**
-	 * 设置：内容
+	 * Setting：Content
 	 */
 	 
 	public void setContent(String content) {
@@ -82,7 +82,7 @@ public class NewsVO  implements Serializable {
 	}
 	
 	/**
-	 * 获取：内容
+	 * Get：Content
 	 */
 	public String getContent() {
 		return content;

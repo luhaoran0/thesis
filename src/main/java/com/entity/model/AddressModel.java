@@ -10,8 +10,8 @@ import java.io.Serializable;
  
 
 /**
- * 地址
- * 接收传参的实体类  
+ * Address
+ * Entity class for receiving passed parameters
  *（实际开发中配合移动端接口开发手动去掉些没用的字段， 后端一般用entity就够用了） 
  * 取自ModelAndView 的model名称
  * @author 
@@ -23,32 +23,32 @@ public class AddressModel  implements Serializable {
 
 	 			
 	/**
-	 * 地址
+	 * Address
 	 */
 	
 	private String address;
 		
 	/**
-	 * 收货人
+	 * Receiver
 	 */
 	
 	private String name;
 		
 	/**
-	 * 电话
+	 * Telephone
 	 */
 	
 	private String phone;
 		
 	/**
-	 * 是否默认地址[是/否]
+	 * Is the default address [Yes/No]
 	 */
 	
 	private String isdefault;
 				
 	
 	/**
-	 * 设置：地址
+	 * Setting：Address
 	 */
 	 
 	public void setAddress(String address) {
@@ -56,7 +56,7 @@ public class AddressModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：地址
+	 * Get：Address
 	 */
 	public String getAddress() {
 		return address;
@@ -64,7 +64,7 @@ public class AddressModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：收货人
+	 * Setting：Receiver
 	 */
 	 
 	public void setName(String name) {
@@ -72,7 +72,7 @@ public class AddressModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：收货人
+	 * Get：Receiver
 	 */
 	public String getName() {
 		return name;
@@ -80,7 +80,7 @@ public class AddressModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：电话
+	 * Setting：Telephone
 	 */
 	 
 	public void setPhone(String phone) {
@@ -88,7 +88,7 @@ public class AddressModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：电话
+	 * Get：Telephone
 	 */
 	public String getPhone() {
 		return phone;
@@ -96,7 +96,7 @@ public class AddressModel  implements Serializable {
 				
 	
 	/**
-	 * 设置：是否默认地址[是/否]
+	 * Setting：Is the default address [Yes/No]
 	 */
 	 
 	public void setIsdefault(String isdefault) {
@@ -104,7 +104,7 @@ public class AddressModel  implements Serializable {
 	}
 	
 	/**
-	 * 获取：是否默认地址[是/否]
+	 * Get：Is the default address [Yes/No]
 	 */
 	public String getIsdefault() {
 		return isdefault;

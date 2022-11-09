@@ -22,8 +22,8 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 图书信息
- * 数据库通用操作实体类（普通增删改查）
+ * Book Information
+ * Database general operation entity class (general add, delete, change, check)
  * @author 
  * @email 
  * @date 2022-09-09 11:45:05
@@ -47,78 +47,78 @@ public class TushuxinxiEntity<T> implements Serializable {
 	}
 	
 	/**
-	 * 主键id
+	 * Primary key id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 图书名称
+	 * Book Title
 	 */
 					
 	private String tushumingcheng;
 	
 	/**
-	 * 图书分类
+	 * Book classification
 	 */
 					
 	private String tushufenlei;
 	
 	/**
-	 * 图书封面
+	 * Book Cover
 	 */
 					
 	private String tushufengmian;
 	
 	/**
-	 * 图书作者
+	 * Book Author
 	 */
 					
 	private String tushuzuozhe;
 	
 	/**
-	 * 图书成色
+	 * Book quality
 	 */
 					
 	private String tushuchengse;
 	
 	/**
-	 * 卖家学号
+	 * Seller's school number
 	 */
 					
 	private String maijiaxuehao;
 	
 	/**
-	 * 卖家姓名
+	 * Seller's name
 	 */
 					
 	private String maijiaxingming;
 	
 	/**
-	 * 联系电话
+	 * Contact Number
 	 */
 					
 	private String lianxidianhua;
 	
 	/**
-	 * 图书详情
+	 * Book Details
 	 */
 					
 	private String tushuxiangqing;
 	
 	/**
-	 * 单限
+	 * Order limit
 	 */
 					
 	private Integer onelimittimes;
 	
 	/**
-	 * 库存
+	 * Inventories
 	 */
 					
 	private Integer alllimittimes;
 	
 	/**
-	 * 价格
+	 * Price
 	 */
 					
 	private Float price;
@@ -143,145 +143,145 @@ public class TushuxinxiEntity<T> implements Serializable {
 		this.id = id;
 	}
 	/**
-	 * 设置：图书名称
+	 * Setting：Book Title
 	 */
 	public void setTushumingcheng(String tushumingcheng) {
 		this.tushumingcheng = tushumingcheng;
 	}
 	/**
-	 * 获取：图书名称
+	 * Get：Book Title
 	 */
 	public String getTushumingcheng() {
 		return tushumingcheng;
 	}
 	/**
-	 * 设置：图书分类
+	 * Setting：Book classification
 	 */
 	public void setTushufenlei(String tushufenlei) {
 		this.tushufenlei = tushufenlei;
 	}
 	/**
-	 * 获取：图书分类
+	 *Get：Book classification
 	 */
 	public String getTushufenlei() {
 		return tushufenlei;
 	}
 	/**
-	 * 设置：图书封面
+	 * Setting：Book Cover
 	 */
 	public void setTushufengmian(String tushufengmian) {
 		this.tushufengmian = tushufengmian;
 	}
 	/**
-	 * 获取：图书封面
+	 * Get：Book Cover
 	 */
 	public String getTushufengmian() {
 		return tushufengmian;
 	}
 	/**
-	 * 设置：图书作者
+	 * Setting：Book Author
 	 */
 	public void setTushuzuozhe(String tushuzuozhe) {
 		this.tushuzuozhe = tushuzuozhe;
 	}
 	/**
-	 * 获取：图书作者
+	 * Get：Book Author
 	 */
 	public String getTushuzuozhe() {
 		return tushuzuozhe;
 	}
 	/**
-	 * 设置：图书成色
+	 * Setting：Book quality
 	 */
 	public void setTushuchengse(String tushuchengse) {
 		this.tushuchengse = tushuchengse;
 	}
 	/**
-	 * 获取：图书成色
+	 * Get：Book quality
 	 */
 	public String getTushuchengse() {
 		return tushuchengse;
 	}
 	/**
-	 * 设置：卖家学号
+	 * Setting：Seller's school number
 	 */
 	public void setMaijiaxuehao(String maijiaxuehao) {
 		this.maijiaxuehao = maijiaxuehao;
 	}
 	/**
-	 * 获取：卖家学号
+	 * Get：Seller's school number
 	 */
 	public String getMaijiaxuehao() {
 		return maijiaxuehao;
 	}
 	/**
-	 * 设置：卖家姓名
+	 * Setting：Seller's name
 	 */
 	public void setMaijiaxingming(String maijiaxingming) {
 		this.maijiaxingming = maijiaxingming;
 	}
 	/**
-	 * 获取：卖家姓名
+	 * Get：Seller's name
 	 */
 	public String getMaijiaxingming() {
 		return maijiaxingming;
 	}
 	/**
-	 * 设置：联系电话
+	 * Setting：Contact Number
 	 */
 	public void setLianxidianhua(String lianxidianhua) {
 		this.lianxidianhua = lianxidianhua;
 	}
 	/**
-	 * 获取：联系电话
+	 * Get：Contact Number
 	 */
 	public String getLianxidianhua() {
 		return lianxidianhua;
 	}
 	/**
-	 * 设置：图书详情
+	 * Setting：Book Details
 	 */
 	public void setTushuxiangqing(String tushuxiangqing) {
 		this.tushuxiangqing = tushuxiangqing;
 	}
 	/**
-	 * 获取：图书详情
+	 * Get：Book Details
 	 */
 	public String getTushuxiangqing() {
 		return tushuxiangqing;
 	}
 	/**
-	 * 设置：单限
+	 * Setting：Order limit
 	 */
 	public void setOnelimittimes(Integer onelimittimes) {
 		this.onelimittimes = onelimittimes;
 	}
 	/**
-	 * 获取：单限
+	 * Get：Order limit
 	 */
 	public Integer getOnelimittimes() {
 		return onelimittimes;
 	}
 	/**
-	 * 设置：库存
+	 * Setting：Inventories
 	 */
 	public void setAlllimittimes(Integer alllimittimes) {
 		this.alllimittimes = alllimittimes;
 	}
 	/**
-	 * 获取：库存
+	 * Get：Inventories
 	 */
 	public Integer getAlllimittimes() {
 		return alllimittimes;
 	}
 	/**
-	 * 设置：价格
+	 * Setting：Price
 	 */
 	public void setPrice(Float price) {
 		this.price = price;
 	}
 	/**
-	 * 获取：价格
+	 * Get：Price
 	 */
 	public Float getPrice() {
 		return price;

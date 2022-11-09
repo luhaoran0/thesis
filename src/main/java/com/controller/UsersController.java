@@ -33,7 +33,7 @@ import com.utils.R;
 import com.utils.ValidatorUtils;
 
 /**
- * 登录相关
+ * Login Related
  */
 @RequestMapping("users")
 @RestController
@@ -46,7 +46,7 @@ public class UsersController{
 	private TokenService tokenService;
 
 	/**
-	 * 登录
+	 * Login
 	 */
 	@IgnoreAuth
 	@PostMapping(value = "/login")
@@ -60,7 +60,7 @@ public class UsersController{
 	}
 	
 	/**
-	 * 注册
+	 * Registration
 	 */
 	@IgnoreAuth
 	@PostMapping(value = "/register")
@@ -74,7 +74,7 @@ public class UsersController{
     }
 
 	/**
-	 * 退出
+	 * Logout
 	 */
 	@GetMapping(value = "logout")
 	public R logout(HttpServletRequest request) {
@@ -83,7 +83,7 @@ public class UsersController{
 	}
 	
 	/**
-     * 密码重置
+     * Password Reset
      */
     @IgnoreAuth
 	@RequestMapping(value = "/resetPass")
@@ -98,7 +98,7 @@ public class UsersController{
     }
 	
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,UsersEntity user){
@@ -108,7 +108,7 @@ public class UsersController{
     }
 
 	/**
-     * 列表
+     * List
      */
     @RequestMapping("/list")
     public R list( UsersEntity user){
@@ -118,7 +118,7 @@ public class UsersController{
     }
 
     /**
-     * 信息
+     * Information
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") String id){
@@ -127,7 +127,7 @@ public class UsersController{
     }
     
     /**
-     * 获取用户的session用户信息
+     * Get the user's session user information
      */
     @RequestMapping("/session")
     public R getCurrUser(HttpServletRequest request){
@@ -137,7 +137,7 @@ public class UsersController{
     }
 
     /**
-     * 保存
+     * Save
      */
     @PostMapping("/save")
     public R save(@RequestBody UsersEntity user){
@@ -150,7 +150,7 @@ public class UsersController{
     }
 
     /**
-     * 修改
+     * Modify
      */
     @RequestMapping("/update")
     public R update(@RequestBody UsersEntity user){
@@ -159,12 +159,12 @@ public class UsersController{
     	if(u!=null && u.getId()!=user.getId() && u.getUsername().equals(user.getUsername())) {
     		return R.error("The user name already exists.");
     	}
-        userService.updateById(user);//全部更新
+        userService.updateById(user);//Update all
         return R.ok();
     }
 
     /**
-     * 删除
+     * Delete
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){

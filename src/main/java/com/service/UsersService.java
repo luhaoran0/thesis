@@ -13,7 +13,7 @@ import com.utils.PageUtils;
 
 
 /**
- * 系统用户
+ * System Users
  */
 public interface UsersService extends IService<UsersEntity> {
  	PageUtils queryPage(Map<String, Object> params);
